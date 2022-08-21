@@ -1,0 +1,17 @@
+
+Use GPU: 0 for training
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 2.903	Loss 0.7594	Acc@1 35.938	Acc@5 100.000	Precision 0.359	Recall 1.000	Macro_f1 0.529	Micro_f1 0.529	
+Epoch: [1][200/378]	GPU 0	Time: 79.453	Loss 0.6714	Acc@1 67.615	Acc@5 100.000	Precision 0.386	Recall 0.296	Macro_f1 0.288	Micro_f1 0.288	
+ * Epoch 1, Acc@1 70.460, Acc@5 100.000, precision 0.498, recall 0.361, macro_f1 0.379, micro_f1 0.379, Time 290.32
+Test: [0/95]	GPU: 0	Time: 0.955	Loss 0.4940	Acc@1 71.875	Acc@5 100.000	Precision 0.600	Recall 0.300	Macro_f1 0.400	Micro_f1 0.400	
+Traceback (most recent call last):
+  File "train_teacher.py", line 320, in <module>
+    main()
+  File "train_teacher.py", line 117, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_teacher.py", line 247, in main_worker
+    test_acc, test_acc_top5, test_loss, precision, recall, macro_f1, micro_f1 = validate_vanilla(val_loader, model, criterion, opt)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/loops.py", line 264, in validate_vanilla
+    losses.update(loss.item(), images.size(0))
+KeyboardInterrupt

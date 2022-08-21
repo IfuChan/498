@@ -1,0 +1,75 @@
+Use GPU: 0 for training
+==> loading teacher model
+==> done
+Test: [0/95]	GPU: 0	Time: 2.611	Loss 0.3281	Acc@1 90.625	Acc@5 100.000	Precision 0.938	Recall 0.750	
+teacher accuracy:  85.726099875523
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 1.221	Loss 3.6965	Acc@1 67.188	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [1][200/378]	GPU 0	Time: 50.045	Loss 2.7974	Acc@1 67.491	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 1, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 183.35
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.996	Loss 0.6269	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+saving the best model!
+==> training...
+Epoch: [2][0/378]	GPU 0	Time: 1.049	Loss 2.5382	Acc@1 59.375	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [2][200/378]	GPU 0	Time: 48.512	Loss 2.3598	Acc@1 68.610	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 2, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 179.99
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 1.008	Loss 0.6772	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+==> training...
+Epoch: [3][0/378]	GPU 0	Time: 1.043	Loss 2.2815	Acc@1 70.312	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [3][200/378]	GPU 0	Time: 48.506	Loss 2.1226	Acc@1 68.361	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 3, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 179.95
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.991	Loss 0.5668	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+==> training...
+Epoch: [4][0/378]	GPU 0	Time: 1.051	Loss 1.8290	Acc@1 73.438	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [4][200/378]	GPU 0	Time: 48.511	Loss 2.0170	Acc@1 68.291	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 4, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 180.00
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.997	Loss 0.6023	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+==> training...
+Epoch: [5][0/378]	GPU 0	Time: 1.045	Loss 2.0039	Acc@1 70.312	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [5][200/378]	GPU 0	Time: 48.536	Loss 1.9240	Acc@1 68.563	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 5, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 180.05
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 1.017	Loss 0.6235	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+==> training...
+Epoch: [6][0/378]	GPU 0	Time: 1.048	Loss 1.8135	Acc@1 67.188	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [6][200/378]	GPU 0	Time: 48.524	Loss 1.9163	Acc@1 68.408	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 6, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 180.04
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.998	Loss 0.5817	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Traceback (most recent call last):
+  File "train_student.py", line 461, in <module>
+    main()
+  File "train_student.py", line 179, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_student.py", line 403, in main_worker
+    test_acc, test_acc_top5, test_loss, precision, recall = validate_distill(val_loader, module_list, criterion_cls, opt)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/loops.py", line 312, in validate_distill
+    for idx, batch_data in enumerate(val_loader):
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 652, in __next__
+    data = self._next_data()
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1330, in _next_data
+    idx, data = self._get_data()
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1296, in _get_data
+    success, data = self._try_get_data()
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1134, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+    r = wait([self], timeout)
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt

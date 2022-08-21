@@ -1,0 +1,25 @@
+2022-08-07 12:54:15,279 INFO    MainThread:1143 [wandb_setup.py:_flush():76] Configure stats pid to 1143
+2022-08-07 12:54:15,280 INFO    MainThread:1143 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2022-08-07 12:54:15,280 INFO    MainThread:1143 [wandb_setup.py:_flush():76] Loading settings from /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/settings
+2022-08-07 12:54:15,280 INFO    MainThread:1143 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-08-07 12:54:15,280 INFO    MainThread:1143 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train_student.py', 'program': 'train_student.py'}
+2022-08-07 12:54:15,280 INFO    MainThread:1143 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2022-08-07 12:54:15,281 INFO    MainThread:1143 [wandb_init.py:_log_setup():461] Logging user logs to /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_125415-2665ngko/logs/debug.log
+2022-08-07 12:54:15,281 INFO    MainThread:1143 [wandb_init.py:_log_setup():462] Logging internal logs to /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_125415-2665ngko/logs/debug-internal.log
+2022-08-07 12:54:15,282 INFO    MainThread:1143 [wandb_init.py:init():495] calling init triggers
+2022-08-07 12:54:15,282 INFO    MainThread:1143 [wandb_init.py:init():499] wandb.init called with sweep_config: {}
+config: {}
+2022-08-07 12:54:15,282 INFO    MainThread:1143 [wandb_init.py:init():548] starting backend
+2022-08-07 12:54:15,282 INFO    MainThread:1143 [wandb_init.py:init():552] setting up manager
+2022-08-07 12:54:15,295 INFO    MainThread:1143 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-08-07 12:54:15,310 INFO    MainThread:1143 [wandb_init.py:init():558] backend started and connected
+2022-08-07 12:54:15,319 INFO    MainThread:1143 [wandb_init.py:init():636] updated telemetry
+2022-08-07 12:54:17,481 INFO    MainThread:1143 [wandb_init.py:init():668] communicating run to backend with 30 second timeout
+2022-08-07 12:54:17,725 INFO    MainThread:1143 [wandb_run.py:_on_init():1982] communicating current version
+2022-08-07 12:54:17,817 INFO    MainThread:1143 [wandb_run.py:_on_init():1986] got version response 
+2022-08-07 12:54:17,817 INFO    MainThread:1143 [wandb_init.py:init():700] starting run threads in backend
+2022-08-07 12:54:17,932 INFO    MainThread:1143 [wandb_run.py:_console_start():1962] atexit reg
+2022-08-07 12:54:17,932 INFO    MainThread:1143 [wandb_run.py:_redirect():1820] redirect: SettingsConsole.WRAP_RAW
+2022-08-07 12:54:17,933 INFO    MainThread:1143 [wandb_run.py:_redirect():1885] Wrapping output streams.
+2022-08-07 12:54:17,933 INFO    MainThread:1143 [wandb_run.py:_redirect():1907] Redirects installed.
+2022-08-07 12:54:17,934 INFO    MainThread:1143 [wandb_init.py:init():732] run started, returning control to user process

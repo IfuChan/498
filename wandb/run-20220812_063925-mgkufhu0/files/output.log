@@ -1,0 +1,18 @@
+Use GPU: 0 for training
+==> loading teacher model
+Traceback (most recent call last):
+  File "train_student.py", line 463, in <module>
+    main()
+  File "train_student.py", line 180, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_student.py", line 212, in main_worker
+    model_t = load_teacher(opt.path_t, n_cls, opt.gpu, opt)
+  File "train_student.py", line 155, in load_teacher
+    model.load_state_dict(torch.load(model_path, map_location=map_location)['model'])
+  File "/usr/local/lib/python3.7/dist-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/usr/local/lib/python3.7/dist-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/usr/local/lib/python3.7/dist-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './save/teachers/models/resnet32x4_vanilla_rsna_pneumonia/resnet32x4_best.pth'

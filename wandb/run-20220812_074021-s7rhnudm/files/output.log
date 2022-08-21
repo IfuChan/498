@@ -1,0 +1,5 @@
+Use GPU: 0 for training
+==> loading teacher model
+==> done
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 4.442	Loss 0.5077	Acc@1 60.938	Acc@5 100.000	

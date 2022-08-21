@@ -1,0 +1,22 @@
+
+Use GPU: 0 for training
+==> training...
+Epoch: [1][0/426]	GPU 0	Time: 3.242	Loss 0.8377	Acc@1 29.688	Acc@5 100.000	Precision 0.279	Recall 0.944	
+Epoch: [1][200/426]	GPU 0	Time: 47.777	Loss 0.5498	Acc@1 72.201	Acc@5 100.000	Precision 0.565	Recall 0.428	
+Epoch: [1][400/426]	GPU 0	Time: 91.620	Loss 0.5245	Acc@1 74.077	Acc@5 100.000	Precision 0.614	Recall 0.484	
+Traceback (most recent call last):
+  File "train_teacher.py", line 303, in <module>
+    main()
+  File "train_teacher.py", line 114, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_teacher.py", line 218, in main_worker
+    metrics.to_csv("/save/teachers/models/metrics_train.csv", mode=('w' if epoch==1 else 'a'), index=False, header=(True if epoch==1 else False))
+  File "/usr/local/lib/python3.7/dist-packages/pandas/core/generic.py", line 3482, in to_csv
+    storage_options=storage_options,
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/formats/format.py", line 1105, in to_csv
+    csv_formatter.save()
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/formats/csvs.py", line 243, in save
+    storage_options=self.storage_options,
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/common.py", line 707, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: '/save/teachers/models/metrics_train.csv'

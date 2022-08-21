@@ -1,0 +1,28 @@
+Use GPU: 0 for training
+==> loading teacher model
+Traceback (most recent call last):
+  File "train_student.py", line 463, in <module>
+    main()
+  File "train_student.py", line 180, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_student.py", line 212, in main_worker
+    model_t = load_teacher(opt.path_t, n_cls, opt.gpu, opt)
+  File "train_student.py", line 155, in load_teacher
+    model.load_state_dict(torch.load(model_path, map_location=map_location)['model'])
+  File "/usr/local/lib/python3.7/dist-packages/torch/serialization.py", line 712, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/usr/local/lib/python3.7/dist-packages/torch/serialization.py", line 1049, in _load
+    result = unpickler.load()
+  File "/usr/local/lib/python3.7/dist-packages/torch/serialization.py", line 1019, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/usr/local/lib/python3.7/dist-packages/torch/serialization.py", line 1001, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/usr/local/lib/python3.7/dist-packages/torch/serialization.py", line 967, in restore_location
+    return default_restore_location(storage, location)
+  File "/usr/local/lib/python3.7/dist-packages/torch/serialization.py", line 175, in default_restore_location
+    result = fn(storage, location)
+  File "/usr/local/lib/python3.7/dist-packages/torch/serialization.py", line 152, in _cuda_deserialize
+    device = validate_cuda_device(location)
+  File "/usr/local/lib/python3.7/dist-packages/torch/serialization.py", line 136, in validate_cuda_device
+    raise RuntimeError('Attempting to deserialize object on a CUDA '
+RuntimeError: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU.

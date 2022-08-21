@@ -1,0 +1,29 @@
+Use GPU: 0 for training
+==> loading teacher model
+==> done
+Traceback (most recent call last):
+  File "train_student.py", line 463, in <module>
+    main()
+  File "train_student.py", line 180, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_student.py", line 351, in main_worker
+    train_loader, val_loader = get_rsna_pneumonia_dataloaders(batch_size=opt.batch_size, num_workers=opt.num_workers)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/dataset/rsna_pneumonia.py", line 59, in get_rsna_pneumonia_dataloaders
+    df = pd.read_csv(csv_path)
+  File "/usr/local/lib/python3.7/dist-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/parsers/base_parser.py", line 229, in _open_handles
+    errors=kwds.get("encoding_errors", "strict"),
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/common.py", line 707, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: '/content/data/kaggle-pneumonia-jpg/stage_2_train_labels.csv'

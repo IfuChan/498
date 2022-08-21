@@ -1,0 +1,25 @@
+Use GPU: 0 for training
+==> loading teacher model
+==> done
+Test: [0/95]	GPU: 0	Time: 7.931	Loss 0.3550	Acc@1 92.188	Acc@5 100.000	Precision 0.941	Recall 0.800	
+teacher accuracy:  85.84187891559809
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 1.520	Loss 0.4993	Acc@1 62.500	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [1][200/378]	GPU 0	Time: 51.697	Loss 0.0792	Acc@1 68.307	Acc@5 100.000	Precision 0.025	Recall 0.001	
+ * Epoch 1, GPU 0, Acc@1 68.368, Acc@5 100.000, precision 0.013, recall 0.001, Time 187.01
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 1.001	Loss 0.7104	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+saving the best model!
+==> training...
+Epoch: [2][0/378]	GPU 0	Time: 1.039	Loss 0.0479	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Traceback (most recent call last):
+  File "train_student.py", line 477, in <module>
+    main()
+  File "train_student.py", line 180, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_student.py", line 381, in main_worker
+    train_acc, train_acc_top5, train_loss, precision, recall = train(epoch, train_loader, module_list, criterion_list, optimizer, opt)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/loops.py", line 176, in train_distill
+    losses.update(loss.item(), images.size(0))
+KeyboardInterrupt

@@ -1,0 +1,58 @@
+Use GPU: 0 for training
+==> loading teacher model
+==> done
+Test: [0/95]	GPU: 0	Time: 2.645	Loss 0.4445	Acc@1 90.625	Acc@5 100.000	Precision 0.938	Recall 0.750	
+teacher accuracy:  85.56070127749025
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 1.247	Loss 3.4913	Acc@1 62.500	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [1][200/378]	GPU 0	Time: 40.183	Loss 2.6718	Acc@1 67.957	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 1, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 149.16
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.966	Loss 0.6538	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+saving the best model!
+==> training...
+Epoch: [2][0/378]	GPU 0	Time: 1.048	Loss 2.2133	Acc@1 67.188	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [2][200/378]	GPU 0	Time: 40.040	Loss 2.1707	Acc@1 68.284	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 2, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 148.39
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.956	Loss 0.6111	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+==> training...
+Epoch: [3][0/378]	GPU 0	Time: 1.021	Loss 1.9091	Acc@1 62.500	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [3][200/378]	GPU 0	Time: 40.336	Loss 1.9927	Acc@1 68.921	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 3, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 148.30
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.969	Loss 0.5662	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+==> training...
+Epoch: [4][0/378]	GPU 0	Time: 1.009	Loss 1.9077	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [4][200/378]	GPU 0	Time: 40.193	Loss 1.9230	Acc@1 68.424	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 4, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 148.92
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.964	Loss 0.6287	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+==> training...
+Epoch: [5][0/378]	GPU 0	Time: 1.047	Loss 2.6215	Acc@1 60.938	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [5][200/378]	GPU 0	Time: 40.022	Loss 1.9137	Acc@1 67.942	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 5, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 147.62
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.970	Loss 0.5679	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+==> training...
+Epoch: [6][0/378]	GPU 0	Time: 1.037	Loss 1.6484	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [6][200/378]	GPU 0	Time: 40.048	Loss 1.8597	Acc@1 68.338	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7feaa22f8dd0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1481, in __del__
+    self._shutdown_workers()
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1445, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)

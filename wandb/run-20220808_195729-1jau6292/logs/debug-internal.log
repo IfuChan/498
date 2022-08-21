@@ -1,0 +1,53 @@
+2022-08-08 19:57:29,429 INFO    StreamThr :499 [internal.py:wandb_internal():93] W&B internal server running at pid: 499, started at: 2022-08-08 19:57:29.426387
+2022-08-08 19:57:29,433 DEBUG   HandlerThread:499 [handler.py:handle_request():141] handle_request: status
+2022-08-08 19:57:29,437 DEBUG   SenderThread:499 [sender.py:send_request():316] send_request: status
+2022-08-08 19:57:29,457 DEBUG   SenderThread:499 [sender.py:send():302] send: header
+2022-08-08 19:57:29,458 INFO    WriterThread:499 [datastore.py:open_for_write():75] open: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/run-1jau6292.wandb
+2022-08-08 19:57:32,221 DEBUG   SenderThread:499 [sender.py:send():302] send: run
+2022-08-08 19:57:32,452 INFO    SenderThread:499 [dir_watcher.py:__init__():216] watching files in: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files
+2022-08-08 19:57:32,452 INFO    SenderThread:499 [sender.py:_start_run_threads():916] run started: 1jau6292 with start time 1659988649.442807
+2022-08-08 19:57:32,453 DEBUG   SenderThread:499 [sender.py:send():302] send: summary
+2022-08-08 19:57:32,458 INFO    SenderThread:499 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-08 19:57:32,461 DEBUG   HandlerThread:499 [handler.py:handle_request():141] handle_request: check_version
+2022-08-08 19:57:32,462 DEBUG   SenderThread:499 [sender.py:send_request():316] send_request: check_version
+2022-08-08 19:57:32,532 DEBUG   HandlerThread:499 [handler.py:handle_request():141] handle_request: run_start
+2022-08-08 19:57:32,535 DEBUG   HandlerThread:499 [meta.py:__init__():35] meta init
+2022-08-08 19:57:32,535 DEBUG   HandlerThread:499 [meta.py:__init__():50] meta init done
+2022-08-08 19:57:32,536 DEBUG   HandlerThread:499 [meta.py:probe():216] probe
+2022-08-08 19:57:32,547 DEBUG   HandlerThread:499 [meta.py:_setup_git():206] setup git
+2022-08-08 19:57:32,588 DEBUG   HandlerThread:499 [meta.py:_setup_git():213] setup git done
+2022-08-08 19:57:32,588 DEBUG   HandlerThread:499 [meta.py:_save_pip():54] save pip
+2022-08-08 19:57:32,592 DEBUG   HandlerThread:499 [meta.py:_save_pip():68] save pip done
+2022-08-08 19:57:32,593 DEBUG   HandlerThread:499 [meta.py:probe():254] probe done
+2022-08-08 19:57:32,630 DEBUG   SenderThread:499 [sender.py:send():302] send: files
+2022-08-08 19:57:32,630 INFO    SenderThread:499 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-08-08 19:57:32,649 DEBUG   HandlerThread:499 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-08 19:57:32,650 DEBUG   SenderThread:499 [sender.py:send_request():316] send_request: stop_status
+2022-08-08 19:57:32,721 DEBUG   SenderThread:499 [sender.py:send():302] send: telemetry
+2022-08-08 19:57:33,468 INFO    Thread-12 :499 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/requirements.txt
+2022-08-08 19:57:33,470 INFO    Thread-12 :499 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/wandb-metadata.json
+2022-08-08 19:57:33,475 INFO    Thread-12 :499 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/wandb-summary.json
+2022-08-08 19:57:33,477 INFO    Thread-12 :499 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/output.log
+2022-08-08 19:57:33,494 INFO    Thread-16 :499 [upload_job.py:push():138] Uploaded file /tmp/tmp3gs3pci3wandb/2h2b0boz-wandb-metadata.json
+2022-08-08 19:57:41,493 INFO    Thread-12 :499 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/output.log
+2022-08-08 19:57:47,723 DEBUG   HandlerThread:499 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-08 19:57:47,723 DEBUG   SenderThread:499 [sender.py:send_request():316] send_request: stop_status
+2022-08-08 19:57:51,522 INFO    Thread-12 :499 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/output.log
+2022-08-08 19:57:53,527 INFO    Thread-12 :499 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/output.log
+2022-08-08 19:57:55,536 INFO    Thread-12 :499 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/output.log
+2022-08-08 19:57:57,547 INFO    Thread-12 :499 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/output.log
+2022-08-08 19:57:59,552 INFO    Thread-12 :499 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/output.log
+2022-08-08 19:58:00,554 INFO    Thread-12 :499 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/config.yaml
+2022-08-08 19:58:00,758 DEBUG   SenderThread:499 [sender.py:send():302] send: stats
+2022-08-08 19:58:01,557 INFO    Thread-12 :499 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/output.log
+2022-08-08 19:58:02,796 DEBUG   HandlerThread:499 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-08 19:58:02,797 DEBUG   SenderThread:499 [sender.py:send_request():316] send_request: stop_status
+2022-08-08 19:58:03,562 INFO    Thread-12 :499 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/output.log
+2022-08-08 19:58:05,567 INFO    Thread-12 :499 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/output.log
+2022-08-08 19:58:07,604 INFO    Thread-12 :499 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/output.log
+2022-08-08 19:58:09,635 INFO    Thread-12 :499 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/output.log
+2022-08-08 19:58:11,652 INFO    Thread-12 :499 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/output.log
+2022-08-08 19:58:13,658 INFO    Thread-12 :499 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/output.log
+2022-08-08 19:58:15,664 INFO    Thread-12 :499 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220808_195729-1jau6292/files/output.log
+2022-08-08 19:58:16,544 INFO    MainThread:499 [internal.py:handle_exit():80] Internal process exited
+2022-08-08 19:58:16,545 WARNING MsgRouterThr:499 [router.py:message_loop():73] EOFError seen in message_loop

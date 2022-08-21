@@ -1,0 +1,12 @@
+Use GPU: 0 for training
+==> loading teacher model
+==> done
+Test: [0/95]	GPU: 0	Time: 2.873	Loss 0.4551	Acc@1 90.625	Acc@5 100.000	Precision 0.938	Recall 0.750	
+Traceback (most recent call last):
+  File "train_student.py", line 458, in <module>
+    main()
+  File "train_student.py", line 176, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_student.py", line 356, in main_worker
+    teacher_acc, _, _ = validate_vanilla(val_loader, model_t, criterion_cls, opt)
+ValueError: too many values to unpack (expected 3)

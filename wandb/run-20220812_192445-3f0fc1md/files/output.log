@@ -1,0 +1,59 @@
+
+Use GPU: 0 for training
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 9.148	Loss 0.6577	Acc@1 64.062	Acc@5 100.000	
+Epoch: [1][200/378]	GPU 0	Time: 84.213	Loss 0.5593	Acc@1 70.934	Acc@5 100.000	
+ * Epoch 1, Acc@1 73.384, Acc@5 100.000, Time 294.56
+Test: [0/95]	GPU: 0	Time: 0.996	Loss 0.5947	Acc@1 76.562	Acc@5 100.000	
+ ** Acc@1 73.867, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [2][0/378]	GPU 0	Time: 1.477	Loss 0.5423	Acc@1 81.250	Acc@5 100.000	
+Epoch: [2][200/378]	GPU 0	Time: 72.858	Loss 0.4816	Acc@1 77.371	Acc@5 100.000	
+ * Epoch 2, Acc@1 77.974, Acc@5 100.000, Time 269.19
+Test: [0/95]	GPU: 0	Time: 0.963	Loss 0.4494	Acc@1 81.250	Acc@5 100.000	
+ ** Acc@1 77.489, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [3][0/378]	GPU 0	Time: 1.515	Loss 0.4274	Acc@1 82.812	Acc@5 100.000	
+Epoch: [3][200/378]	GPU 0	Time: 70.473	Loss 0.4660	Acc@1 78.078	Acc@5 100.000	
+ * Epoch 3, Acc@1 78.558, Acc@5 100.000, Time 266.46
+Test: [0/95]	GPU: 0	Time: 0.974	Loss 0.4255	Acc@1 81.250	Acc@5 100.000	
+ ** Acc@1 79.309, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [4][0/378]	GPU 0	Time: 1.495	Loss 0.4528	Acc@1 78.125	Acc@5 100.000	
+Epoch: [4][200/378]	GPU 0	Time: 70.978	Loss 0.4477	Acc@1 79.003	Acc@5 100.000	
+ * Epoch 4, Acc@1 79.608, Acc@5 100.000, Time 266.26
+Test: [0/95]	GPU: 0	Time: 0.953	Loss 0.3632	Acc@1 87.500	Acc@5 100.000	
+ ** Acc@1 80.433, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [5][0/378]	GPU 0	Time: 1.515	Loss 0.5694	Acc@1 75.000	Acc@5 100.000	
+Epoch: [5][200/378]	GPU 0	Time: 73.591	Loss 0.4282	Acc@1 80.177	Acc@5 100.000	
+ * Epoch 5, Acc@1 80.137, Acc@5 100.000, Time 272.87
+Test: [0/95]	GPU: 0	Time: 0.971	Loss 0.3718	Acc@1 79.688	Acc@5 100.000	
+ ** Acc@1 80.367, Acc@5 100.000
+==> training...
+Epoch: [6][0/378]	GPU 0	Time: 1.563	Loss 0.4137	Acc@1 81.250	Acc@5 100.000	
+Epoch: [6][200/378]	GPU 0	Time: 73.084	Loss 0.4197	Acc@1 80.589	Acc@5 100.000	
+ * Epoch 6, Acc@1 80.518, Acc@5 100.000, Time 268.44
+Test: [0/95]	GPU: 0	Time: 1.003	Loss 0.3828	Acc@1 85.938	Acc@5 100.000	
+ ** Acc@1 80.185, Acc@5 100.000
+==> training...
+Epoch: [7][0/378]	GPU 0	Time: 1.566	Loss 0.3362	Acc@1 82.812	Acc@5 100.000	
+Epoch: [7][200/378]	GPU 0	Time: 73.441	Loss 0.4199	Acc@1 80.512	Acc@5 100.000	
+ * Epoch 7, Acc@1 80.663, Acc@5 100.000, Time 271.42
+Test: [0/95]	GPU: 0	Time: 0.951	Loss 0.3566	Acc@1 87.500	Acc@5 100.000	
+ ** Acc@1 80.715, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [8][0/378]	GPU 0	Time: 1.527	Loss 0.3727	Acc@1 79.688	Acc@5 100.000	
+Epoch: [8][200/378]	GPU 0	Time: 73.193	Loss 0.4099	Acc@1 80.885	Acc@5 100.000	
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/lib/exit_hooks.py", line 43, in exc_handler
+    def exc_handler(
+KeyboardInterrupt
+Original exception was:
+Traceback (most recent call last):

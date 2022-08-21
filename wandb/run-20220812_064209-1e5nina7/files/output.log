@@ -1,0 +1,11 @@
+Use GPU: 0 for training
+==> loading teacher model
+==> done
+Traceback (most recent call last):
+  File "train_student.py", line 463, in <module>
+    main()
+  File "train_student.py", line 180, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_student.py", line 360, in main_worker
+    teacher_acc, _, _ = validate_vanilla(val_loader, model_t, criterion_cls, opt)
+TypeError: validate_vanilla() missing 1 required positional argument: 'opt'

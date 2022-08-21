@@ -1,0 +1,41 @@
+{
+    "os": "Linux-5.4.188+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-07-27T12:01:26.114557",
+    "startedAt": "2022-07-27T12:01:24.818333",
+    "docker": null,
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "cpu_count": 2,
+    "cuda": null,
+    "args": [
+        "--dataset",
+        "cifar100",
+        "--path_t",
+        "./save/teachers/models/resnet32x4_vanilla/resnet32x4_best.pth",
+        "--distill",
+        "simkd",
+        "--model_s",
+        "ShuffleV2_1_5",
+        "-c",
+        "0",
+        "-d",
+        "0",
+        "-b",
+        "1",
+        "--trial",
+        "0!"
+    ],
+    "state": "running",
+    "program": "train_student.py",
+    "codePath": "train_student.py",
+    "git": {
+        "remote": "https://github.com/DefangChen/SimKD.git",
+        "commit": "2b389c31ed7779aea31e7aaf0bb0f2d8b6ac2f01"
+    },
+    "email": null,
+    "root": "/content/drive/MyDrive/CSE499/SimKD",
+    "host": "cf355f9707a6",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}

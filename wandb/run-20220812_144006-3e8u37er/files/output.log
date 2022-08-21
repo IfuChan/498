@@ -1,0 +1,77 @@
+Use GPU: 0 for training
+==> loading teacher model
+==> done
+==> training...
+/usr/local/lib/python3.7/dist-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+Epoch: [1][0/378]	GPU 0	Time: 8.469	Loss 0.1586	Acc@1 71.875	Acc@5 100.000	
+Epoch: [1][200/378]	GPU 0	Time: 102.257	Loss 0.1031	Acc@1 72.077	Acc@5 100.000	
+ * Epoch 1, GPU 0, Acc@1 73.727, Acc@5 100.000
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.876	Loss 0.4264	Acc@1 79.688	Acc@5 100.000	
+ ** Acc@1 76.712, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [2][0/378]	GPU 0	Time: 1.312	Loss 0.1819	Acc@1 73.438	Acc@5 100.000	
+/usr/local/lib/python3.7/dist-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+Epoch: [2][200/378]	GPU 0	Time: 93.273	Loss 0.1793	Acc@1 76.493	Acc@5 100.000	
+ * Epoch 2, GPU 0, Acc@1 76.800, Acc@5 100.000
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.805	Loss 0.4357	Acc@1 78.125	Acc@5 100.000	
+ ** Acc@1 76.894, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [3][0/378]	GPU 0	Time: 1.294	Loss 0.2543	Acc@1 73.438	Acc@5 100.000	
+/usr/local/lib/python3.7/dist-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+Epoch: [3][200/378]	GPU 0	Time: 93.256	Loss 0.2599	Acc@1 77.387	Acc@5 100.000	
+ * Epoch 3, GPU 0, Acc@1 77.710, Acc@5 100.000
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.833	Loss 1.6335	Acc@1 68.750	Acc@5 100.000	
+ ** Acc@1 68.591, Acc@5 100.000
+==> training...
+Epoch: [4][0/378]	GPU 0	Time: 1.296	Loss 0.3886	Acc@1 75.000	Acc@5 100.000	
+/usr/local/lib/python3.7/dist-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+Epoch: [4][200/378]	GPU 0	Time: 93.250	Loss 0.3330	Acc@1 78.008	Acc@5 100.000	
+ * Epoch 4, GPU 0, Acc@1 78.206, Acc@5 100.000
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.813	Loss 3.5439	Acc@1 68.750	Acc@5 100.000	
+ ** Acc@1 68.640, Acc@5 100.000
+==> training...
+Epoch: [5][0/378]	GPU 0	Time: 1.267	Loss 0.3615	Acc@1 87.500	Acc@5 100.000	
+/usr/local/lib/python3.7/dist-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+Epoch: [5][200/378]	GPU 0	Time: 93.214	Loss 0.4054	Acc@1 78.335	Acc@5 100.000	
+ * Epoch 5, GPU 0, Acc@1 78.731, Acc@5 100.000
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.817	Loss 0.9943	Acc@1 68.750	Acc@5 100.000	
+ ** Acc@1 69.484, Acc@5 100.000
+==> training...
+Epoch: [6][0/378]	GPU 0	Time: 1.289	Loss 0.4029	Acc@1 79.688	Acc@5 100.000	
+/usr/local/lib/python3.7/dist-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+Epoch: [6][200/378]	GPU 0	Time: 93.235	Loss 0.4693	Acc@1 78.918	Acc@5 100.000	
+ * Epoch 6, GPU 0, Acc@1 79.083, Acc@5 100.000
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.850	Loss 0.4239	Acc@1 79.688	Acc@5 100.000	
+ ** Acc@1 77.754, Acc@5 100.000
+saving the best model!
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/torch/serialization.py", line 379, in save
+    _save(obj, opened_zipfile, pickle_module, pickle_protocol)
+  File "/usr/local/lib/python3.7/dist-packages/torch/serialization.py", line 604, in _save
+    zip_file.write_record(name, storage.data_ptr(), num_bytes)
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "train_student.py", line 467, in <module>
+    main()
+  File "train_student.py", line 180, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_student.py", line 451, in main_worker
+    torch.save(state, save_file)
+  File "/usr/local/lib/python3.7/dist-packages/torch/serialization.py", line 379, in save
+    _save(obj, opened_zipfile, pickle_module, pickle_protocol)
+KeyboardInterrupt

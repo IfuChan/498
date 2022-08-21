@@ -1,0 +1,1 @@
+{"train_loss": 0.1564991274023056, "train_acc": 99.116, "_timestamp": 1659095044, "_runtime": 13552, "_step": 381, "test_acc": 79.39, "test_loss": 0.9387026672840119, "test_acc_top5": 94.97}

@@ -1,0 +1,34 @@
+2022-08-05 07:56:33,143 INFO    StreamThr :465 [internal.py:wandb_internal():93] W&B internal server running at pid: 465, started at: 2022-08-05 07:56:33.140442
+2022-08-05 07:56:33,146 DEBUG   HandlerThread:465 [handler.py:handle_request():141] handle_request: status
+2022-08-05 07:56:33,151 DEBUG   SenderThread:465 [sender.py:send_request():316] send_request: status
+2022-08-05 07:56:33,161 DEBUG   SenderThread:465 [sender.py:send():302] send: header
+2022-08-05 07:56:33,161 INFO    WriterThread:465 [datastore.py:open_for_write():75] open: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_075633-ohybbqkp/run-ohybbqkp.wandb
+2022-08-05 07:56:39,141 DEBUG   SenderThread:465 [sender.py:send():302] send: run
+2022-08-05 07:56:39,649 INFO    SenderThread:465 [dir_watcher.py:__init__():216] watching files in: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_075633-ohybbqkp/files
+2022-08-05 07:56:39,649 INFO    SenderThread:465 [sender.py:_start_run_threads():916] run started: ohybbqkp with start time 1659686193.152183
+2022-08-05 07:56:39,649 DEBUG   SenderThread:465 [sender.py:send():302] send: summary
+2022-08-05 07:56:39,653 DEBUG   HandlerThread:465 [handler.py:handle_request():141] handle_request: check_version
+2022-08-05 07:56:39,654 INFO    SenderThread:465 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-05 07:56:39,655 DEBUG   SenderThread:465 [sender.py:send_request():316] send_request: check_version
+2022-08-05 07:56:39,749 DEBUG   HandlerThread:465 [handler.py:handle_request():141] handle_request: run_start
+2022-08-05 07:56:39,752 DEBUG   HandlerThread:465 [meta.py:__init__():35] meta init
+2022-08-05 07:56:39,753 DEBUG   HandlerThread:465 [meta.py:__init__():50] meta init done
+2022-08-05 07:56:39,753 DEBUG   HandlerThread:465 [meta.py:probe():216] probe
+2022-08-05 07:56:39,765 DEBUG   HandlerThread:465 [meta.py:_setup_git():206] setup git
+2022-08-05 07:56:39,811 DEBUG   HandlerThread:465 [meta.py:_setup_git():213] setup git done
+2022-08-05 07:56:39,811 DEBUG   HandlerThread:465 [meta.py:_save_pip():54] save pip
+2022-08-05 07:56:39,816 DEBUG   HandlerThread:465 [meta.py:_save_pip():68] save pip done
+2022-08-05 07:56:39,816 DEBUG   HandlerThread:465 [meta.py:probe():254] probe done
+2022-08-05 07:56:39,857 DEBUG   SenderThread:465 [sender.py:send():302] send: files
+2022-08-05 07:56:39,858 INFO    SenderThread:465 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-08-05 07:56:39,874 DEBUG   HandlerThread:465 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 07:56:39,875 DEBUG   SenderThread:465 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 07:56:40,093 DEBUG   SenderThread:465 [sender.py:send():302] send: telemetry
+2022-08-05 07:56:40,446 INFO    Thread-16 :465 [upload_job.py:push():138] Uploaded file /tmp/tmpw83sn8d8wandb/2xm1uga1-wandb-metadata.json
+2022-08-05 07:56:40,655 INFO    Thread-12 :465 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_075633-ohybbqkp/files/wandb-summary.json
+2022-08-05 07:56:40,656 INFO    Thread-12 :465 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_075633-ohybbqkp/files/wandb-metadata.json
+2022-08-05 07:56:40,656 INFO    Thread-12 :465 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_075633-ohybbqkp/files/requirements.txt
+2022-08-05 07:56:41,657 INFO    Thread-12 :465 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_075633-ohybbqkp/files/output.log
+2022-08-05 07:56:51,813 INFO    Thread-12 :465 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_075633-ohybbqkp/files/output.log
+2022-08-05 07:56:52,752 INFO    MainThread:465 [internal.py:handle_exit():80] Internal process exited
+2022-08-05 07:56:52,753 WARNING MsgRouterThr:465 [router.py:message_loop():73] EOFError seen in message_loop

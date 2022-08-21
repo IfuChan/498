@@ -1,0 +1,45 @@
+Use GPU: 0 for training
+==> loading teacher model
+==> done
+Test: [0/95]	GPU: 0	Time: 2.659	Loss 0.3743	Acc@1 89.062	Acc@5 100.000	Precision 0.882	Recall 0.750	
+teacher accuracy:  85.64340057019717
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 1.243	Loss 3.5113	Acc@1 62.500	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [1][200/378]	GPU 0	Time: 39.768	Loss 2.6760	Acc@1 68.299	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 1, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 148.61
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.959	Loss 0.7488	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/lib/exit_hooks.py", line 43, in exc_handler
+    def exc_handler(
+KeyboardInterrupt
+Original exception was:
+Traceback (most recent call last):
+  File "train_student.py", line 477, in <module>
+    main()
+  File "train_student.py", line 180, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_student.py", line 412, in main_worker
+    test_acc, test_acc_top5, test_loss, precision, recall = validate_distill(val_loader, module_list, criterion_cls, opt)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/loops.py", line 312, in validate_distill
+    for idx, batch_data in enumerate(val_loader):
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 652, in __next__
+    data = self._next_data()
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1330, in _next_data
+    idx, data = self._get_data()
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1296, in _get_data
+    success, data = self._try_get_data()
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1134, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+    r = wait([self], timeout)
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt

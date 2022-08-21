@@ -1,0 +1,378 @@
+
+Use GPU: 0 for training
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 2.183	Loss 0.7574	Acc@1 28.125	Acc@5 100.000	Precision 0.255	Recall 0.737	
+Epoch: [1][200/378]	GPU 0	Time: 40.042	Loss 0.7641	Acc@1 70.095	Acc@5 100.000	Precision 0.495	Recall 0.471	
+ * Epoch 1, Acc@1 73.591, Acc@5 100.000, precision 0.588, recall 0.510, Time 137.71
+Test: [0/95]	GPU: 0	Time: 0.777	Loss 0.3809	Acc@1 82.812	Acc@5 100.000	Precision 0.800	Recall 0.600	
+ ** Acc@1 78.167, Acc@5 100.000, precision 0.713, recall 0.527
+saving the best model!
+==> training...
+Epoch: [2][0/378]	GPU 0	Time: 0.832	Loss 0.3567	Acc@1 85.938	Acc@5 100.000	Precision 0.824	Recall 0.700	
+Epoch: [2][200/378]	GPU 0	Time: 35.880	Loss 0.4988	Acc@1 78.047	Acc@5 100.000	Precision 0.698	Recall 0.573	
+ * Epoch 2, Acc@1 78.227, Acc@5 100.000, precision 0.693, recall 0.579, Time 132.92
+Test: [0/95]	GPU: 0	Time: 0.771	Loss 0.4008	Acc@1 84.375	Acc@5 100.000	Precision 0.778	Recall 0.700	
+ ** Acc@1 78.515, Acc@5 100.000, precision 0.664, recall 0.653
+saving the best model!
+==> training...
+Epoch: [3][0/378]	GPU 0	Time: 0.798	Loss 0.4800	Acc@1 76.562	Acc@5 100.000	Precision 0.783	Recall 0.643	
+Epoch: [3][200/378]	GPU 0	Time: 35.796	Loss 0.4615	Acc@1 78.794	Acc@5 100.000	Precision 0.707	Recall 0.579	
+ * Epoch 3, Acc@1 79.112, Acc@5 100.000, precision 0.706, recall 0.597, Time 133.59
+Test: [0/95]	GPU: 0	Time: 0.756	Loss 0.3933	Acc@1 84.375	Acc@5 100.000	Precision 0.812	Recall 0.650	
+ ** Acc@1 79.706, Acc@5 100.000, precision 0.715, recall 0.605
+saving the best model!
+==> training...
+Epoch: [4][0/378]	GPU 0	Time: 0.818	Loss 0.4396	Acc@1 78.125	Acc@5 100.000	Precision 0.529	Recall 0.600	
+Epoch: [4][200/378]	GPU 0	Time: 35.894	Loss 0.4423	Acc@1 80.006	Acc@5 100.000	Precision 0.720	Recall 0.603	
+ * Epoch 4, Acc@1 79.773, Acc@5 100.000, precision 0.715, recall 0.609, Time 132.92
+Test: [0/95]	GPU: 0	Time: 0.762	Loss 0.3900	Acc@1 87.500	Acc@5 100.000	Precision 0.875	Recall 0.700	
+ ** Acc@1 79.176, Acc@5 100.000, precision 0.734, recall 0.546
+==> training...
+Epoch: [5][0/378]	GPU 0	Time: 0.801	Loss 0.4766	Acc@1 76.562	Acc@5 100.000	Precision 0.733	Recall 0.500	
+Epoch: [5][200/378]	GPU 0	Time: 35.780	Loss 0.4441	Acc@1 79.563	Acc@5 100.000	Precision 0.711	Recall 0.626	
+ * Epoch 5, Acc@1 79.604, Acc@5 100.000, precision 0.707, recall 0.614, Time 133.23
+Test: [0/95]	GPU: 0	Time: 0.773	Loss 0.4029	Acc@1 82.812	Acc@5 100.000	Precision 0.846	Recall 0.550	
+ ** Acc@1 79.987, Acc@5 100.000, precision 0.756, recall 0.549
+saving the best model!
+==> training...
+Epoch: [6][0/378]	GPU 0	Time: 0.807	Loss 0.4743	Acc@1 82.812	Acc@5 100.000	Precision 0.765	Recall 0.650	
+Epoch: [6][200/378]	GPU 0	Time: 35.958	Loss 0.4449	Acc@1 79.711	Acc@5 100.000	Precision 0.717	Recall 0.611	
+ * Epoch 6, Acc@1 79.910, Acc@5 100.000, precision 0.720, recall 0.611, Time 132.94
+Test: [0/95]	GPU: 0	Time: 0.784	Loss 0.3865	Acc@1 82.812	Acc@5 100.000	Precision 0.765	Recall 0.650	
+ ** Acc@1 79.689, Acc@5 100.000, precision 0.707, recall 0.622
+==> training...
+Epoch: [7][0/378]	GPU 0	Time: 0.813	Loss 0.3087	Acc@1 89.062	Acc@5 100.000	Precision 0.824	Recall 0.778	
+Epoch: [7][200/378]	GPU 0	Time: 36.213	Loss 0.4255	Acc@1 80.325	Acc@5 100.000	Precision 0.721	Recall 0.620	
+ * Epoch 7, Acc@1 79.976, Acc@5 100.000, precision 0.718, recall 0.618, Time 133.87
+Test: [0/95]	GPU: 0	Time: 0.772	Loss 0.4180	Acc@1 82.812	Acc@5 100.000	Precision 0.714	Recall 0.750	
+ ** Acc@1 79.176, Acc@5 100.000, precision 0.675, recall 0.671
+==> training...
+Epoch: [8][0/378]	GPU 0	Time: 0.813	Loss 0.4463	Acc@1 73.438	Acc@5 100.000	Precision 0.714	Recall 0.435	
+Epoch: [8][200/378]	GPU 0	Time: 35.797	Loss 0.4266	Acc@1 80.068	Acc@5 100.000	Precision 0.719	Recall 0.615	
+ * Epoch 8, Acc@1 79.786, Acc@5 100.000, precision 0.713, recall 0.617, Time 132.80
+Test: [0/95]	GPU: 0	Time: 0.766	Loss 0.4026	Acc@1 84.375	Acc@5 100.000	Precision 0.812	Recall 0.650	
+ ** Acc@1 80.152, Acc@5 100.000, precision 0.718, recall 0.616
+saving the best model!
+==> training...
+Epoch: [9][0/378]	GPU 0	Time: 0.811	Loss 0.3930	Acc@1 85.938	Acc@5 100.000	Precision 0.800	Recall 0.667	
+Epoch: [9][200/378]	GPU 0	Time: 35.888	Loss 0.4242	Acc@1 80.519	Acc@5 100.000	Precision 0.720	Recall 0.627	
+ * Epoch 9, Acc@1 80.406, Acc@5 100.000, precision 0.722, recall 0.632, Time 132.54
+Test: [0/95]	GPU: 0	Time: 0.767	Loss 0.4190	Acc@1 79.688	Acc@5 100.000	Precision 0.684	Recall 0.650	
+ ** Acc@1 79.110, Acc@5 100.000, precision 0.676, recall 0.655
+==> training...
+Epoch: [10][0/378]	GPU 0	Time: 0.805	Loss 0.4484	Acc@1 79.688	Acc@5 100.000	Precision 0.688	Recall 0.579	
+Epoch: [10][200/378]	GPU 0	Time: 35.708	Loss 0.4299	Acc@1 79.882	Acc@5 100.000	Precision 0.706	Recall 0.639	
+ * Epoch 10, Acc@1 80.117, Acc@5 100.000, precision 0.714, recall 0.634, Time 132.68
+Test: [0/95]	GPU: 0	Time: 0.776	Loss 0.4394	Acc@1 81.250	Acc@5 100.000	Precision 0.682	Recall 0.750	
+ ** Acc@1 79.507, Acc@5 100.000, precision 0.673, recall 0.691
+==> training...
+Epoch: [11][0/378]	GPU 0	Time: 0.825	Loss 0.3234	Acc@1 87.500	Acc@5 100.000	Precision 0.706	Recall 0.800	
+Epoch: [11][200/378]	GPU 0	Time: 36.077	Loss 0.4225	Acc@1 80.208	Acc@5 100.000	Precision 0.713	Recall 0.624	
+ * Epoch 11, Acc@1 80.183, Acc@5 100.000, precision 0.716, recall 0.630, Time 133.36
+Test: [0/95]	GPU: 0	Time: 0.796	Loss 0.4061	Acc@1 82.812	Acc@5 100.000	Precision 0.846	Recall 0.550	
+ ** Acc@1 79.722, Acc@5 100.000, precision 0.753, recall 0.545
+==> training...
+Epoch: [12][0/378]	GPU 0	Time: 0.811	Loss 0.4516	Acc@1 75.000	Acc@5 100.000	Precision 0.650	Recall 0.591	
+Epoch: [12][200/378]	GPU 0	Time: 36.041	Loss 0.4227	Acc@1 80.224	Acc@5 100.000	Precision 0.717	Recall 0.633	
+ * Epoch 12, Acc@1 80.237, Acc@5 100.000, precision 0.715, recall 0.633, Time 133.07
+Test: [0/95]	GPU: 0	Time: 0.767	Loss 0.4111	Acc@1 84.375	Acc@5 100.000	Precision 0.778	Recall 0.700	
+ ** Acc@1 80.615, Acc@5 100.000, precision 0.739, recall 0.609
+saving the best model!
+==> training...
+Epoch: [13][0/378]	GPU 0	Time: 0.809	Loss 0.5303	Acc@1 78.125	Acc@5 100.000	Precision 0.833	Recall 0.577	
+Epoch: [13][200/378]	GPU 0	Time: 35.956	Loss 0.4228	Acc@1 80.255	Acc@5 100.000	Precision 0.712	Recall 0.633	
+ * Epoch 13, Acc@1 80.307, Acc@5 100.000, precision 0.717, recall 0.630, Time 133.27
+Test: [0/95]	GPU: 0	Time: 0.760	Loss 0.3873	Acc@1 82.812	Acc@5 100.000	Precision 0.737	Recall 0.700	
+ ** Acc@1 79.110, Acc@5 100.000, precision 0.658, recall 0.714
+==> training...
+Epoch: [14][0/378]	GPU 0	Time: 0.801	Loss 0.5630	Acc@1 82.812	Acc@5 100.000	Precision 0.818	Recall 0.720	
+Epoch: [14][200/378]	GPU 0	Time: 36.019	Loss 0.4263	Acc@1 80.426	Acc@5 100.000	Precision 0.717	Recall 0.642	
+ * Epoch 14, Acc@1 80.323, Acc@5 100.000, precision 0.719, recall 0.630, Time 133.12
+Test: [0/95]	GPU: 0	Time: 0.759	Loss 0.4282	Acc@1 82.812	Acc@5 100.000	Precision 0.846	Recall 0.550	
+ ** Acc@1 78.961, Acc@5 100.000, precision 0.744, recall 0.519
+==> training...
+Epoch: [15][0/378]	GPU 0	Time: 0.818	Loss 0.4419	Acc@1 82.812	Acc@5 100.000	Precision 0.632	Recall 0.750	
+Epoch: [15][200/378]	GPU 0	Time: 36.031	Loss 0.4184	Acc@1 80.496	Acc@5 100.000	Precision 0.715	Recall 0.643	
+ * Epoch 15, Acc@1 80.146, Acc@5 100.000, precision 0.711, recall 0.635, Time 133.38
+Test: [0/95]	GPU: 0	Time: 0.774	Loss 0.3603	Acc@1 87.500	Acc@5 100.000	Precision 0.875	Recall 0.700	
+ ** Acc@1 80.284, Acc@5 100.000, precision 0.707, recall 0.650
+==> training...
+Epoch: [16][0/378]	GPU 0	Time: 0.800	Loss 0.4744	Acc@1 75.000	Acc@5 100.000	Precision 0.600	Recall 0.600	
+Epoch: [16][200/378]	GPU 0	Time: 36.040	Loss 0.4195	Acc@1 80.449	Acc@5 100.000	Precision 0.723	Recall 0.646	
+ * Epoch 16, Acc@1 80.133, Acc@5 100.000, precision 0.715, recall 0.627, Time 133.16
+Test: [0/95]	GPU: 0	Time: 0.773	Loss 0.4350	Acc@1 76.562	Acc@5 100.000	Precision 0.727	Recall 0.400	
+ ** Acc@1 78.167, Acc@5 100.000, precision 0.800, recall 0.423
+==> training...
+Epoch: [17][0/378]	GPU 0	Time: 0.798	Loss 0.5161	Acc@1 82.812	Acc@5 100.000	Precision 0.786	Recall 0.579	
+Epoch: [17][200/378]	GPU 0	Time: 35.803	Loss 0.4178	Acc@1 80.690	Acc@5 100.000	Precision 0.718	Recall 0.650	
+ * Epoch 17, Acc@1 80.166, Acc@5 100.000, precision 0.712, recall 0.637, Time 132.85
+Test: [0/95]	GPU: 0	Time: 0.763	Loss 0.3823	Acc@1 82.812	Acc@5 100.000	Precision 0.737	Recall 0.700	
+ ** Acc@1 79.143, Acc@5 100.000, precision 0.695, recall 0.614
+==> training...
+Epoch: [18][0/378]	GPU 0	Time: 0.808	Loss 0.5041	Acc@1 75.000	Acc@5 100.000	Precision 0.611	Recall 0.550	
+Epoch: [18][200/378]	GPU 0	Time: 35.914	Loss 0.4126	Acc@1 81.048	Acc@5 100.000	Precision 0.729	Recall 0.651	
+ * Epoch 18, Acc@1 80.369, Acc@5 100.000, precision 0.724, recall 0.622, Time 133.08
+Test: [0/95]	GPU: 0	Time: 0.763	Loss 0.4014	Acc@1 82.812	Acc@5 100.000	Precision 0.846	Recall 0.550	
+ ** Acc@1 79.706, Acc@5 100.000, precision 0.751, recall 0.543
+==> training...
+Epoch: [19][0/378]	GPU 0	Time: 0.828	Loss 0.3663	Acc@1 84.375	Acc@5 100.000	Precision 0.750	Recall 0.667	
+Epoch: [19][200/378]	GPU 0	Time: 35.939	Loss 0.4235	Acc@1 80.434	Acc@5 100.000	Precision 0.722	Recall 0.630	
+ * Epoch 19, Acc@1 80.352, Acc@5 100.000, precision 0.721, recall 0.626, Time 133.14
+Test: [0/95]	GPU: 0	Time: 0.775	Loss 0.3753	Acc@1 84.375	Acc@5 100.000	Precision 0.750	Recall 0.750	
+ ** Acc@1 80.251, Acc@5 100.000, precision 0.706, recall 0.647
+==> training...
+Epoch: [20][0/378]	GPU 0	Time: 0.817	Loss 0.4068	Acc@1 84.375	Acc@5 100.000	Precision 0.842	Recall 0.696	
+Epoch: [20][200/378]	GPU 0	Time: 35.895	Loss 0.4217	Acc@1 80.271	Acc@5 100.000	Precision 0.717	Recall 0.625	
+ * Epoch 20, Acc@1 80.274, Acc@5 100.000, precision 0.718, recall 0.630, Time 132.90
+Test: [0/95]	GPU: 0	Time: 0.768	Loss 0.3972	Acc@1 84.375	Acc@5 100.000	Precision 0.857	Recall 0.600	
+ ** Acc@1 79.755, Acc@5 100.000, precision 0.759, recall 0.530
+==> training...
+Epoch: [21][0/378]	GPU 0	Time: 0.811	Loss 0.3501	Acc@1 85.938	Acc@5 100.000	Precision 0.647	Recall 0.786	
+Epoch: [21][200/378]	GPU 0	Time: 36.076	Loss 0.4190	Acc@1 80.317	Acc@5 100.000	Precision 0.716	Recall 0.633	
+ * Epoch 21, Acc@1 80.427, Acc@5 100.000, precision 0.715, recall 0.646, Time 133.81
+Test: [0/95]	GPU: 0	Time: 0.767	Loss 0.3924	Acc@1 82.812	Acc@5 100.000	Precision 0.765	Recall 0.650	
+ ** Acc@1 80.069, Acc@5 100.000, precision 0.724, recall 0.603
+==> training...
+Epoch: [22][0/378]	GPU 0	Time: 0.807	Loss 0.4578	Acc@1 76.562	Acc@5 100.000	Precision 0.684	Recall 0.591	
+Epoch: [22][200/378]	GPU 0	Time: 36.250	Loss 0.4204	Acc@1 80.543	Acc@5 100.000	Precision 0.723	Recall 0.630	
+ * Epoch 22, Acc@1 80.307, Acc@5 100.000, precision 0.716, recall 0.640, Time 133.48
+Test: [0/95]	GPU: 0	Time: 0.756	Loss 0.3860	Acc@1 84.375	Acc@5 100.000	Precision 0.750	Recall 0.750	
+ ** Acc@1 81.062, Acc@5 100.000, precision 0.714, recall 0.675
+saving the best model!
+==> training...
+Epoch: [23][0/378]	GPU 0	Time: 0.814	Loss 0.4353	Acc@1 79.688	Acc@5 100.000	Precision 0.714	Recall 0.682	
+Epoch: [23][200/378]	GPU 0	Time: 35.808	Loss 0.4184	Acc@1 80.340	Acc@5 100.000	Precision 0.719	Recall 0.627	
+ * Epoch 23, Acc@1 80.410, Acc@5 100.000, precision 0.721, recall 0.630, Time 132.56
+Test: [0/95]	GPU: 0	Time: 0.784	Loss 0.3599	Acc@1 89.062	Acc@5 100.000	Precision 0.882	Recall 0.750	
+ ** Acc@1 80.483, Acc@5 100.000, precision 0.712, recall 0.646
+==> training...
+Epoch: [24][0/378]	GPU 0	Time: 0.825	Loss 0.3902	Acc@1 81.250	Acc@5 100.000	Precision 0.778	Recall 0.636	
+Epoch: [24][200/378]	GPU 0	Time: 35.967	Loss 0.4205	Acc@1 80.519	Acc@5 100.000	Precision 0.722	Recall 0.639	
+ * Epoch 24, Acc@1 80.286, Acc@5 100.000, precision 0.717, recall 0.632, Time 133.36
+Test: [0/95]	GPU: 0	Time: 0.751	Loss 0.3994	Acc@1 84.375	Acc@5 100.000	Precision 0.857	Recall 0.600	
+ ** Acc@1 80.301, Acc@5 100.000, precision 0.766, recall 0.555
+==> training...
+Epoch: [25][0/378]	GPU 0	Time: 0.819	Loss 0.5149	Acc@1 78.125	Acc@5 100.000	Precision 0.688	Recall 0.550	
+Epoch: [25][200/378]	GPU 0	Time: 35.731	Loss 0.4221	Acc@1 80.426	Acc@5 100.000	Precision 0.722	Recall 0.620	
+ * Epoch 25, Acc@1 80.481, Acc@5 100.000, precision 0.720, recall 0.633, Time 132.76
+Test: [0/95]	GPU: 0	Time: 0.770	Loss 0.4109	Acc@1 85.938	Acc@5 100.000	Precision 0.867	Recall 0.650	
+ ** Acc@1 79.871, Acc@5 100.000, precision 0.732, recall 0.577
+==> training...
+Epoch: [26][0/378]	GPU 0	Time: 0.814	Loss 0.4506	Acc@1 73.438	Acc@5 100.000	Precision 0.632	Recall 0.545	
+Epoch: [26][200/378]	GPU 0	Time: 35.830	Loss 0.4257	Acc@1 79.905	Acc@5 100.000	Precision 0.715	Recall 0.622	
+ * Epoch 26, Acc@1 80.261, Acc@5 100.000, precision 0.716, recall 0.636, Time 133.09
+Test: [0/95]	GPU: 0	Time: 0.763	Loss 0.3712	Acc@1 84.375	Acc@5 100.000	Precision 0.857	Recall 0.600	
+ ** Acc@1 79.457, Acc@5 100.000, precision 0.765, recall 0.516
+==> training...
+Epoch: [27][0/378]	GPU 0	Time: 0.804	Loss 0.5059	Acc@1 76.562	Acc@5 100.000	Precision 0.824	Recall 0.538	
+Epoch: [27][200/378]	GPU 0	Time: 35.680	Loss 0.4207	Acc@1 80.169	Acc@5 100.000	Precision 0.724	Recall 0.610	
+ * Epoch 27, Acc@1 80.001, Acc@5 100.000, precision 0.716, recall 0.622, Time 132.53
+Test: [0/95]	GPU: 0	Time: 0.784	Loss 0.4544	Acc@1 78.125	Acc@5 100.000	Precision 0.667	Recall 0.600	
+ ** Acc@1 77.241, Acc@5 100.000, precision 0.664, recall 0.581
+==> training...
+Epoch: [28][0/378]	GPU 0	Time: 0.795	Loss 0.3830	Acc@1 82.812	Acc@5 100.000	Precision 0.727	Recall 0.762	
+Epoch: [28][200/378]	GPU 0	Time: 35.903	Loss 0.4192	Acc@1 80.519	Acc@5 100.000	Precision 0.727	Recall 0.636	
+ * Epoch 28, Acc@1 80.195, Acc@5 100.000, precision 0.714, recall 0.635, Time 132.87
+Test: [0/95]	GPU: 0	Time: 0.764	Loss 0.4711	Acc@1 79.688	Acc@5 100.000	Precision 0.613	Recall 0.950	
+ ** Acc@1 73.784, Acc@5 100.000, precision 0.558, recall 0.823
+==> training...
+Epoch: [29][0/378]	GPU 0	Time: 0.807	Loss 0.3700	Acc@1 81.250	Acc@5 100.000	Precision 0.611	Recall 0.688	
+Epoch: [29][200/378]	GPU 0	Time: 35.887	Loss 0.4098	Acc@1 80.854	Acc@5 100.000	Precision 0.727	Recall 0.654	
+ * Epoch 29, Acc@1 80.323, Acc@5 100.000, precision 0.719, recall 0.637, Time 133.79
+Test: [0/95]	GPU: 0	Time: 0.778	Loss 0.3927	Acc@1 78.125	Acc@5 100.000	Precision 0.636	Recall 0.700	
+ ** Acc@1 79.441, Acc@5 100.000, precision 0.676, recall 0.673
+==> training...
+Epoch: [30][0/378]	GPU 0	Time: 0.829	Loss 0.3877	Acc@1 81.250	Acc@5 100.000	Precision 0.579	Recall 0.733	
+Epoch: [30][200/378]	GPU 0	Time: 35.747	Loss 0.4261	Acc@1 79.882	Acc@5 100.000	Precision 0.716	Recall 0.629	
+ * Epoch 30, Acc@1 80.572, Acc@5 100.000, precision 0.722, recall 0.641, Time 132.01
+Test: [0/95]	GPU: 0	Time: 0.760	Loss 0.3809	Acc@1 84.375	Acc@5 100.000	Precision 0.857	Recall 0.600	
+ ** Acc@1 80.566, Acc@5 100.000, precision 0.744, recall 0.590
+==> training...
+Epoch: [31][0/378]	GPU 0	Time: 0.837	Loss 0.3516	Acc@1 84.375	Acc@5 100.000	Precision 0.650	Recall 0.812	
+Epoch: [31][200/378]	GPU 0	Time: 36.232	Loss 0.3919	Acc@1 81.561	Acc@5 100.000	Precision 0.729	Recall 0.661	
+ * Epoch 31, Acc@1 81.734, Acc@5 100.000, precision 0.737, recall 0.661, Time 133.06
+Test: [0/95]	GPU: 0	Time: 0.764	Loss 0.3731	Acc@1 84.375	Acc@5 100.000	Precision 0.778	Recall 0.700	
+ ** Acc@1 81.707, Acc@5 100.000, precision 0.716, recall 0.701
+saving the best model!
+==> training...
+Epoch: [32][0/378]	GPU 0	Time: 0.809	Loss 0.4867	Acc@1 76.562	Acc@5 100.000	Precision 0.412	Recall 0.583	
+Epoch: [32][200/378]	GPU 0	Time: 35.574	Loss 0.3821	Acc@1 82.105	Acc@5 100.000	Precision 0.730	Recall 0.672	
+ * Epoch 32, Acc@1 82.143, Acc@5 100.000, precision 0.739, recall 0.678, Time 131.89
+Test: [0/95]	GPU: 0	Time: 0.765	Loss 0.3848	Acc@1 82.812	Acc@5 100.000	Precision 0.737	Recall 0.700	
+ ** Acc@1 82.021, Acc@5 100.000, precision 0.730, recall 0.688
+saving the best model!
+==> training...
+Epoch: [33][0/378]	GPU 0	Time: 0.794	Loss 0.2902	Acc@1 89.062	Acc@5 100.000	Precision 0.783	Recall 0.900	
+Epoch: [33][200/378]	GPU 0	Time: 35.592	Loss 0.3760	Acc@1 82.618	Acc@5 100.000	Precision 0.744	Recall 0.693	
+ * Epoch 33, Acc@1 82.499, Acc@5 100.000, precision 0.740, recall 0.695, Time 132.12
+Test: [0/95]	GPU: 0	Time: 0.762	Loss 0.4012	Acc@1 82.812	Acc@5 100.000	Precision 0.737	Recall 0.700	
+ ** Acc@1 82.501, Acc@5 100.000, precision 0.755, recall 0.662
+saving the best model!
+==> training...
+Epoch: [34][0/378]	GPU 0	Time: 0.822	Loss 0.3326	Acc@1 82.812	Acc@5 100.000	Precision 0.625	Recall 0.667	
+Epoch: [34][200/378]	GPU 0	Time: 35.880	Loss 0.3756	Acc@1 82.758	Acc@5 100.000	Precision 0.748	Recall 0.696	
+ * Epoch 34, Acc@1 82.925, Acc@5 100.000, precision 0.747, recall 0.701, Time 132.81
+Test: [0/95]	GPU: 0	Time: 0.762	Loss 0.3604	Acc@1 85.938	Acc@5 100.000	Precision 0.824	Recall 0.700	
+ ** Acc@1 82.170, Acc@5 100.000, precision 0.771, recall 0.624
+==> training...
+Epoch: [35][0/378]	GPU 0	Time: 0.793	Loss 0.3098	Acc@1 85.938	Acc@5 100.000	Precision 0.722	Recall 0.765	
+Epoch: [35][200/378]	GPU 0	Time: 35.705	Loss 0.3639	Acc@1 83.209	Acc@5 100.000	Precision 0.758	Recall 0.701	
+ * Epoch 35, Acc@1 83.280, Acc@5 100.000, precision 0.756, recall 0.703, Time 134.35
+Test: [0/95]	GPU: 0	Time: 0.763	Loss 0.4068	Acc@1 79.688	Acc@5 100.000	Precision 0.652	Recall 0.750	
+ ** Acc@1 81.508, Acc@5 100.000, precision 0.707, recall 0.708
+==> training...
+Epoch: [36][0/378]	GPU 0	Time: 0.798	Loss 0.3987	Acc@1 85.938	Acc@5 100.000	Precision 0.765	Recall 0.722	
+Epoch: [36][200/378]	GPU 0	Time: 35.658	Loss 0.3589	Acc@1 83.357	Acc@5 100.000	Precision 0.753	Recall 0.719	
+ * Epoch 36, Acc@1 83.413, Acc@5 100.000, precision 0.753, recall 0.713, Time 132.70
+Test: [0/95]	GPU: 0	Time: 0.761	Loss 0.3427	Acc@1 82.812	Acc@5 100.000	Precision 0.714	Recall 0.750	
+ ** Acc@1 82.220, Acc@5 100.000, precision 0.730, recall 0.698
+==> training...
+Epoch: [37][0/378]	GPU 0	Time: 0.832	Loss 0.3635	Acc@1 82.812	Acc@5 100.000	Precision 0.750	Recall 0.714	
+Epoch: [37][200/378]	GPU 0	Time: 35.736	Loss 0.3512	Acc@1 84.196	Acc@5 100.000	Precision 0.765	Recall 0.719	
+ * Epoch 37, Acc@1 83.950, Acc@5 100.000, precision 0.764, recall 0.718, Time 132.21
+Test: [0/95]	GPU: 0	Time: 0.769	Loss 0.3316	Acc@1 84.375	Acc@5 100.000	Precision 0.778	Recall 0.700	
+ ** Acc@1 81.972, Acc@5 100.000, precision 0.731, recall 0.682
+==> training...
+Epoch: [38][0/378]	GPU 0	Time: 0.815	Loss 0.2558	Acc@1 90.625	Acc@5 100.000	Precision 0.850	Recall 0.850	
+Epoch: [38][200/378]	GPU 0	Time: 35.645	Loss 0.3464	Acc@1 84.282	Acc@5 100.000	Precision 0.767	Recall 0.742	
+ * Epoch 38, Acc@1 84.000, Acc@5 100.000, precision 0.765, recall 0.720, Time 132.72
+Test: [0/95]	GPU: 0	Time: 0.760	Loss 0.3808	Acc@1 82.812	Acc@5 100.000	Precision 0.800	Recall 0.600	
+ ** Acc@1 82.170, Acc@5 100.000, precision 0.750, recall 0.657
+==> training...
+Epoch: [39][0/378]	GPU 0	Time: 0.829	Loss 0.4906	Acc@1 78.125	Acc@5 100.000	Precision 0.562	Recall 0.562	
+Epoch: [39][200/378]	GPU 0	Time: 35.948	Loss 0.3362	Acc@1 84.795	Acc@5 100.000	Precision 0.770	Recall 0.737	
+ * Epoch 39, Acc@1 84.310, Acc@5 100.000, precision 0.766, recall 0.729, Time 132.49
+Test: [0/95]	GPU: 0	Time: 0.775	Loss 0.3722	Acc@1 85.938	Acc@5 100.000	Precision 0.762	Recall 0.800	
+ ** Acc@1 81.029, Acc@5 100.000, precision 0.711, recall 0.687
+==> training...
+Epoch: [40][0/378]	GPU 0	Time: 0.784	Loss 0.4340	Acc@1 82.812	Acc@5 100.000	Precision 0.750	Recall 0.714	
+Epoch: [40][200/378]	GPU 0	Time: 35.661	Loss 0.3419	Acc@1 84.655	Acc@5 100.000	Precision 0.779	Recall 0.744	
+ * Epoch 40, Acc@1 84.571, Acc@5 100.000, precision 0.769, recall 0.742, Time 132.53
+Test: [0/95]	GPU: 0	Time: 0.762	Loss 0.3948	Acc@1 82.812	Acc@5 100.000	Precision 0.800	Recall 0.600	
+ ** Acc@1 82.005, Acc@5 100.000, precision 0.752, recall 0.647
+==> training...
+Epoch: [41][0/378]	GPU 0	Time: 0.798	Loss 0.3575	Acc@1 89.062	Acc@5 100.000	Precision 0.850	Recall 0.810	
+Epoch: [41][200/378]	GPU 0	Time: 35.525	Loss 0.3129	Acc@1 86.194	Acc@5 100.000	Precision 0.806	Recall 0.750	
+ * Epoch 41, Acc@1 86.551, Acc@5 100.000, precision 0.805, recall 0.763, Time 132.06
+Test: [0/95]	GPU: 0	Time: 0.759	Loss 0.3664	Acc@1 82.812	Acc@5 100.000	Precision 0.737	Recall 0.700	
+ ** Acc@1 82.650, Acc@5 100.000, precision 0.739, recall 0.704
+saving the best model!
+==> training...
+Epoch: [42][0/378]	GPU 0	Time: 0.791	Loss 0.2650	Acc@1 85.938	Acc@5 100.000	Precision 0.800	Recall 0.762	
+Epoch: [42][200/378]	GPU 0	Time: 35.927	Loss 0.2947	Acc@1 87.275	Acc@5 100.000	Precision 0.814	Recall 0.783	
+ * Epoch 42, Acc@1 87.573, Acc@5 100.000, precision 0.815, recall 0.789, Time 134.73
+Test: [0/95]	GPU: 0	Time: 0.784	Loss 0.3771	Acc@1 85.938	Acc@5 100.000	Precision 0.762	Recall 0.800	
+ ** Acc@1 81.707, Acc@5 100.000, precision 0.715, recall 0.708
+==> training...
+Epoch: [43][0/378]	GPU 0	Time: 0.824	Loss 0.2943	Acc@1 90.625	Acc@5 100.000	Precision 0.833	Recall 0.833	
+Epoch: [43][200/378]	GPU 0	Time: 36.724	Loss 0.2854	Acc@1 88.075	Acc@5 100.000	Precision 0.815	Recall 0.805	
+ * Epoch 43, Acc@1 88.168, Acc@5 100.000, precision 0.822, recall 0.802, Time 135.09
+Test: [0/95]	GPU: 0	Time: 0.764	Loss 0.4342	Acc@1 79.688	Acc@5 100.000	Precision 0.684	Recall 0.650	
+ ** Acc@1 82.021, Acc@5 100.000, precision 0.743, recall 0.664
+==> training...
+Epoch: [44][0/378]	GPU 0	Time: 0.791	Loss 0.1501	Acc@1 95.312	Acc@5 100.000	Precision 0.895	Recall 0.944	
+Epoch: [44][200/378]	GPU 0	Time: 36.270	Loss 0.2696	Acc@1 88.853	Acc@5 100.000	Precision 0.833	Recall 0.814	
+ * Epoch 44, Acc@1 88.826, Acc@5 100.000, precision 0.832, recall 0.815, Time 133.97
+Test: [0/95]	GPU: 0	Time: 0.770	Loss 0.4025	Acc@1 84.375	Acc@5 100.000	Precision 0.778	Recall 0.700	
+ ** Acc@1 82.352, Acc@5 100.000, precision 0.732, recall 0.702
+==> training...
+Epoch: [45][0/378]	GPU 0	Time: 0.804	Loss 0.2980	Acc@1 85.938	Acc@5 100.000	Precision 0.900	Recall 0.720	
+Epoch: [45][200/378]	GPU 0	Time: 35.807	Loss 0.2620	Acc@1 89.195	Acc@5 100.000	Precision 0.843	Recall 0.819	
+ * Epoch 45, Acc@1 89.434, Acc@5 100.000, precision 0.841, recall 0.825, Time 132.96
+Test: [0/95]	GPU: 0	Time: 0.773	Loss 0.4406	Acc@1 82.812	Acc@5 100.000	Precision 0.737	Recall 0.700	
+ ** Acc@1 82.633, Acc@5 100.000, precision 0.726, recall 0.725
+==> training...
+Epoch: [46][0/378]	GPU 0	Time: 0.825	Loss 0.1778	Acc@1 93.750	Acc@5 100.000	Precision 0.885	Recall 0.958	
+Epoch: [46][200/378]	GPU 0	Time: 35.917	Loss 0.2494	Acc@1 89.902	Acc@5 100.000	Precision 0.848	Recall 0.830	
+ * Epoch 46, Acc@1 89.963, Acc@5 100.000, precision 0.848, recall 0.835, Time 133.22
+Test: [0/95]	GPU: 0	Time: 0.772	Loss 0.4283	Acc@1 84.375	Acc@5 100.000	Precision 0.750	Recall 0.750	
+ ** Acc@1 82.567, Acc@5 100.000, precision 0.733, recall 0.714
+==> training...
+Epoch: [47][0/378]	GPU 0	Time: 0.815	Loss 0.2180	Acc@1 89.062	Acc@5 100.000	Precision 0.905	Recall 0.792	
+Epoch: [47][200/378]	GPU 0	Time: 35.812	Loss 0.2320	Acc@1 90.920	Acc@5 100.000	Precision 0.858	Recall 0.852	
+ * Epoch 47, Acc@1 90.472, Acc@5 100.000, precision 0.855, recall 0.847, Time 133.31
+Test: [0/95]	GPU: 0	Time: 0.765	Loss 0.3615	Acc@1 87.500	Acc@5 100.000	Precision 0.800	Recall 0.800	
+ ** Acc@1 82.683, Acc@5 100.000, precision 0.717, recall 0.753
+saving the best model!
+==> training...
+Epoch: [48][0/378]	GPU 0	Time: 0.839	Loss 0.2319	Acc@1 92.188	Acc@5 100.000	Precision 0.895	Recall 0.850	
+Epoch: [48][200/378]	GPU 0	Time: 36.569	Loss 0.2331	Acc@1 91.006	Acc@5 100.000	Precision 0.863	Recall 0.852	
+ * Epoch 48, Acc@1 90.832, Acc@5 100.000, precision 0.862, recall 0.850, Time 133.93
+Test: [0/95]	GPU: 0	Time: 0.759	Loss 0.4404	Acc@1 82.812	Acc@5 100.000	Precision 0.765	Recall 0.650	
+ ** Acc@1 82.137, Acc@5 100.000, precision 0.708, recall 0.746
+==> training...
+Epoch: [49][0/378]	GPU 0	Time: 0.802	Loss 0.1767	Acc@1 95.312	Acc@5 100.000	Precision 0.941	Recall 0.889	
+Epoch: [49][200/378]	GPU 0	Time: 36.007	Loss 0.2165	Acc@1 91.900	Acc@5 100.000	Precision 0.878	Recall 0.867	
+ * Epoch 49, Acc@1 91.746, Acc@5 100.000, precision 0.874, recall 0.866, Time 133.78
+Test: [0/95]	GPU: 0	Time: 0.761	Loss 0.4374	Acc@1 81.250	Acc@5 100.000	Precision 0.750	Recall 0.600	
+ ** Acc@1 83.162, Acc@5 100.000, precision 0.725, recall 0.755
+saving the best model!
+==> training...
+Epoch: [50][0/378]	GPU 0	Time: 0.810	Loss 0.2795	Acc@1 90.625	Acc@5 100.000	Precision 0.870	Recall 0.870	
+Epoch: [50][200/378]	GPU 0	Time: 35.938	Loss 0.2040	Acc@1 92.257	Acc@5 100.000	Precision 0.885	Recall 0.870	
+ * Epoch 50, Acc@1 91.944, Acc@5 100.000, precision 0.878, recall 0.869, Time 132.91
+Test: [0/95]	GPU: 0	Time: 0.774	Loss 0.4804	Acc@1 82.812	Acc@5 100.000	Precision 0.737	Recall 0.700	
+ ** Acc@1 82.584, Acc@5 100.000, precision 0.725, recall 0.721
+==> training...
+Epoch: [51][0/378]	GPU 0	Time: 0.816	Loss 0.1633	Acc@1 95.312	Acc@5 100.000	Precision 0.833	Recall 1.000	
+Epoch: [51][200/378]	GPU 0	Time: 36.124	Loss 0.1934	Acc@1 92.778	Acc@5 100.000	Precision 0.888	Recall 0.885	
+ * Epoch 51, Acc@1 93.148, Acc@5 100.000, precision 0.891, recall 0.893, Time 133.44
+Test: [0/95]	GPU: 0	Time: 0.783	Loss 0.4717	Acc@1 82.812	Acc@5 100.000	Precision 0.765	Recall 0.650	
+ ** Acc@1 83.460, Acc@5 100.000, precision 0.754, recall 0.711
+saving the best model!
+==> training...
+Epoch: [52][0/378]	GPU 0	Time: 0.815	Loss 0.2433	Acc@1 90.625	Acc@5 100.000	Precision 0.792	Recall 0.950	
+Epoch: [52][200/378]	GPU 0	Time: 35.969	Loss 0.1789	Acc@1 93.750	Acc@5 100.000	Precision 0.903	Recall 0.903	
+ * Epoch 52, Acc@1 93.735, Acc@5 100.000, precision 0.905, recall 0.899, Time 133.01
+Test: [0/95]	GPU: 0	Time: 0.772	Loss 0.4119	Acc@1 84.375	Acc@5 100.000	Precision 0.778	Recall 0.700	
+ ** Acc@1 83.278, Acc@5 100.000, precision 0.737, recall 0.741
+==> training...
+Epoch: [53][0/378]	GPU 0	Time: 0.810	Loss 0.2501	Acc@1 92.188	Acc@5 100.000	Precision 1.000	Recall 0.821	
+Epoch: [53][200/378]	GPU 0	Time: 35.852	Loss 0.1708	Acc@1 93.975	Acc@5 100.000	Precision 0.905	Recall 0.905	
+ * Epoch 53, Acc@1 93.826, Acc@5 100.000, precision 0.904, recall 0.902, Time 133.26
+Test: [0/95]	GPU: 0	Time: 0.766	Loss 0.5090	Acc@1 84.375	Acc@5 100.000	Precision 0.778	Recall 0.700	
+ ** Acc@1 82.699, Acc@5 100.000, precision 0.731, recall 0.723
+==> training...
+Epoch: [54][0/378]	GPU 0	Time: 0.810	Loss 0.1592	Acc@1 95.312	Acc@5 100.000	Precision 0.917	Recall 0.957	
+Epoch: [54][200/378]	GPU 0	Time: 35.832	Loss 0.1697	Acc@1 93.952	Acc@5 100.000	Precision 0.911	Recall 0.902	
+ * Epoch 54, Acc@1 94.144, Acc@5 100.000, precision 0.909, recall 0.908, Time 133.10
+Test: [0/95]	GPU: 0	Time: 0.769	Loss 0.4889	Acc@1 84.375	Acc@5 100.000	Precision 0.750	Recall 0.750	
+ ** Acc@1 83.328, Acc@5 100.000, precision 0.732, recall 0.754
+==> training...
+Epoch: [55][0/378]	GPU 0	Time: 0.807	Loss 0.1022	Acc@1 96.875	Acc@5 100.000	Precision 0.900	Recall 1.000	
+Epoch: [55][200/378]	GPU 0	Time: 35.880	Loss 0.1599	Acc@1 94.636	Acc@5 100.000	Precision 0.923	Recall 0.910	
+ * Epoch 55, Acc@1 94.603, Acc@5 100.000, precision 0.921, recall 0.911, Time 133.22
+Test: [0/95]	GPU: 0	Time: 0.775	Loss 0.4260	Acc@1 82.812	Acc@5 100.000	Precision 0.765	Recall 0.650	
+ ** Acc@1 83.344, Acc@5 100.000, precision 0.733, recall 0.749
+==> training...
+Epoch: [56][0/378]	GPU 0	Time: 0.815	Loss 0.3289	Acc@1 85.938	Acc@5 100.000	Precision 0.737	Recall 0.778	
+Epoch: [56][200/378]	GPU 0	Time: 35.884	Loss 0.1614	Acc@1 94.419	Acc@5 100.000	Precision 0.916	Recall 0.912	
+ * Epoch 56, Acc@1 94.669, Acc@5 100.000, precision 0.918, recall 0.915, Time 133.13
+Test: [0/95]	GPU: 0	Time: 0.764	Loss 0.3596	Acc@1 84.375	Acc@5 100.000	Precision 0.778	Recall 0.700	
+ ** Acc@1 83.444, Acc@5 100.000, precision 0.739, recall 0.737
+==> training...
+Epoch: [57][0/378]	GPU 0	Time: 0.807	Loss 0.1133	Acc@1 96.875	Acc@5 100.000	Precision 0.944	Recall 0.944	
+Epoch: [57][200/378]	GPU 0	Time: 35.875	Loss 0.1606	Acc@1 94.512	Acc@5 100.000	Precision 0.919	Recall 0.913	
+ * Epoch 57, Acc@1 94.661, Acc@5 100.000, precision 0.916, recall 0.916, Time 133.72
+Test: [0/95]	GPU: 0	Time: 0.772	Loss 0.4459	Acc@1 84.375	Acc@5 100.000	Precision 0.750	Recall 0.750	
+ ** Acc@1 83.361, Acc@5 100.000, precision 0.736, recall 0.743
+==> training...
+Epoch: [58][0/378]	GPU 0	Time: 0.824	Loss 0.1426	Acc@1 95.312	Acc@5 100.000	Precision 0.880	Recall 1.000	
+Epoch: [58][200/378]	GPU 0	Time: 35.953	Loss 0.1502	Acc@1 94.932	Acc@5 100.000	Precision 0.922	Recall 0.918	
+ * Epoch 58, Acc@1 94.905, Acc@5 100.000, precision 0.924, recall 0.916, Time 133.26
+Test: [0/95]	GPU: 0	Time: 0.778	Loss 0.4927	Acc@1 82.812	Acc@5 100.000	Precision 0.737	Recall 0.700	
+ ** Acc@1 83.890, Acc@5 100.000, precision 0.755, recall 0.730
+saving the best model!
+==> training...
+Epoch: [59][0/378]	GPU 0	Time: 0.814	Loss 0.1508	Acc@1 93.750	Acc@5 100.000	Precision 0.905	Recall 0.905	
+Epoch: [59][200/378]	GPU 0	Time: 35.911	Loss 0.1491	Acc@1 95.040	Acc@5 100.000	Precision 0.923	Recall 0.920	
+ * Epoch 59, Acc@1 94.938, Acc@5 100.000, precision 0.924, recall 0.917, Time 133.19
+Test: [0/95]	GPU: 0	Time: 0.771	Loss 0.4655	Acc@1 81.250	Acc@5 100.000	Precision 0.700	Recall 0.700	
+ ** Acc@1 83.295, Acc@5 100.000, precision 0.730, recall 0.759
+==> training...
+Epoch: [60][0/378]	GPU 0	Time: 0.805	Loss 0.0821	Acc@1 98.438	Acc@5 100.000	Precision 0.944	Recall 1.000	
+Epoch: [60][200/378]	GPU 0	Time: 36.060	Loss 0.1469	Acc@1 95.126	Acc@5 100.000	Precision 0.924	Recall 0.922	
+ * Epoch 60, Acc@1 95.104, Acc@5 100.000, precision 0.926, recall 0.921, Time 133.27
+Test: [0/95]	GPU: 0	Time: 0.765	Loss 0.4743	Acc@1 85.938	Acc@5 100.000	Precision 0.789	Recall 0.750	
+ ** Acc@1 83.444, Acc@5 100.000, precision 0.743, recall 0.733
+best accuracy: 83.89017532252728

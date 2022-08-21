@@ -1,0 +1,14 @@
+
+Use GPU: 0 for training
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 10.824	Loss 0.6857	Acc@1 59.375	Acc@5 100.000	Precision 0.111	Recall 0.053	Macro_f1 0.406	Micro_f1 0.594	
+Traceback (most recent call last):
+  File "train_teacher.py", line 320, in <module>
+    main()
+  File "train_teacher.py", line 117, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_teacher.py", line 211, in main_worker
+    train_acc, train_acc_top5, train_loss, precision, recall, macro_f1, micro_f1 = train(epoch, train_loader, model, criterion, optimizer, opt)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/loops.py", line 41, in train_vanilla
+    losses.update(loss.item(), images.size(0))
+KeyboardInterrupt

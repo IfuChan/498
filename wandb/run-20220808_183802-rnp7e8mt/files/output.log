@@ -1,0 +1,15 @@
+
+Use GPU: 0 for training
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 9.121	Loss 0.9173	Acc@1 35.938	Acc@5 100.000	Precision 0.359	Recall 1.000	Macro_f1 0.529	
+Epoch: [1][200/378]	GPU 0	Time: 86.955	Loss 0.6590	Acc@1 67.942	Acc@5 100.000	Precision 0.289	Recall 0.209	Macro_f1 0.211	
+ * Epoch 1, Acc@1 71.366, Acc@5 100.000, precision 0.446, recall 0.348, macro_f1 0.362, Time 299.55
+Test: [0/95]	GPU: 0	Time: 1.089	Loss 0.6210	Acc@1 67.188	Acc@5 100.000	Precision 0.486	Recall 0.900	Macro_f1 0.632	
+Traceback (most recent call last):
+  File "train_teacher.py", line 313, in <module>
+    main()
+  File "train_teacher.py", line 117, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_teacher.py", line 259, in main_worker
+    print(' ** Acc@1 {:.3f}, Acc@5 {:.3f}, precision {:.3f}, recall {:.3f}, macro_f1 {;.3f}'.format(test_acc, test_acc_top5, precision, recall, macro_f1))
+KeyError: ';'

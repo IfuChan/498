@@ -1,0 +1,25 @@
+Use GPU: 0 for training
+6 0.5
+==> training...
+Traceback (most recent call last):
+  File "train_teacher.py", line 303, in <module>
+    main()
+  File "train_teacher.py", line 114, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_teacher.py", line 208, in main_worker
+    train_acc, train_acc_top5, train_loss, precision, recall = train(epoch, train_loader, model, criterion, optimizer, opt)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/loops.py", line 37, in train_vanilla
+    output = model(images)
+  File "/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/models/mobilenetv2.py", line 148, in forward
+    out = self.classifier(out)
+  File "/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (64x20480 and 1280x2)

@@ -1,0 +1,22 @@
+Use GPU: 0 for training
+==> loading teacher model
+==> done
+Test: [0/95]	GPU: 0	Time: 2.743	Loss 0.5321	Acc@1 89.062	Acc@5 100.000	
+Traceback (most recent call last):
+  File "train_student.py", line 463, in <module>
+    main()
+  File "train_student.py", line 180, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_student.py", line 360, in main_worker
+    teacher_acc, _, _ = validate_vanilla(-1, val_loader, model_t, criterion_cls, opt)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/loops.py", line 278, in validate_vanilla
+    update_classification_report(epoch, cl_report, opt, validation=True)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/util.py", line 78, in update_classification_report
+    with pd.ExcelWriter(opt.save_folder+"/classification_report_validation.xlsx", engine='openpyxl', mode=('w' if epoch==1 else 'a')) as writer:
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/excel/_openpyxl.py", line 57, in __init__
+    engine_kwargs=engine_kwargs,
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/excel/_base.py", line 926, in __init__
+    path, mode, storage_options=storage_options, is_text=False
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/common.py", line 711, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: './save/students/models/S:resnet8x4_T:resnet32x4_rsna_pneumonia_simkd_r:0.0_a:0.0_b:1.0_0/classification_report_validation.xlsx'

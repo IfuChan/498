@@ -1,0 +1,14 @@
+Use GPU: 0 for training
+==> training...
+Traceback (most recent call last):
+  File "train_teacher.py", line 292, in <module>
+    main()
+  File "train_teacher.py", line 117, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_teacher.py", line 211, in main_worker
+    train_acc, train_acc_top5, train_loss = train(epoch, train_loader, model, criterion, optimizer, opt)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/loops.py", line 448, in train_vanilla
+    images = images.cuda(opt.gpu if opt.multiprocessing_distributed else 0, non_blocking=True)
+  File "/usr/local/lib/python3.7/dist-packages/torch/cuda/__init__.py", line 217, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: No CUDA GPUs are available

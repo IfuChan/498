@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train_student.py", line 463, in <module>
+    main()
+  File "train_student.py", line 180, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+TypeError: main_worker() missing 1 required positional argument: 'opt'

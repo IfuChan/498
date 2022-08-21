@@ -1,0 +1,154 @@
+2022-08-05 06:39:54,211 INFO    StreamThr :809 [internal.py:wandb_internal():93] W&B internal server running at pid: 809, started at: 2022-08-05 06:39:54.208572
+2022-08-05 06:39:54,213 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: status
+2022-08-05 06:39:54,216 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: status
+2022-08-05 06:39:54,223 DEBUG   SenderThread:809 [sender.py:send():302] send: header
+2022-08-05 06:39:54,223 INFO    WriterThread:809 [datastore.py:open_for_write():75] open: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_063954-282avtqu/run-282avtqu.wandb
+2022-08-05 06:39:54,265 DEBUG   SenderThread:809 [sender.py:send():302] send: run
+2022-08-05 06:39:54,442 INFO    SenderThread:809 [dir_watcher.py:__init__():216] watching files in: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_063954-282avtqu/files
+2022-08-05 06:39:54,443 INFO    SenderThread:809 [sender.py:_start_run_threads():916] run started: 282avtqu with start time 1659681594.215018
+2022-08-05 06:39:54,443 DEBUG   SenderThread:809 [sender.py:send():302] send: summary
+2022-08-05 06:39:54,445 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: check_version
+2022-08-05 06:39:54,446 INFO    SenderThread:809 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-05 06:39:54,447 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: check_version
+2022-08-05 06:39:54,548 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: run_start
+2022-08-05 06:39:54,552 DEBUG   HandlerThread:809 [meta.py:__init__():35] meta init
+2022-08-05 06:39:54,552 DEBUG   HandlerThread:809 [meta.py:__init__():50] meta init done
+2022-08-05 06:39:54,552 DEBUG   HandlerThread:809 [meta.py:probe():216] probe
+2022-08-05 06:39:54,563 DEBUG   HandlerThread:809 [meta.py:_setup_git():206] setup git
+2022-08-05 06:39:54,600 DEBUG   HandlerThread:809 [meta.py:_setup_git():213] setup git done
+2022-08-05 06:39:54,600 DEBUG   HandlerThread:809 [meta.py:_save_pip():54] save pip
+2022-08-05 06:39:54,604 DEBUG   HandlerThread:809 [meta.py:_save_pip():68] save pip done
+2022-08-05 06:39:54,604 DEBUG   HandlerThread:809 [meta.py:probe():254] probe done
+2022-08-05 06:39:54,640 DEBUG   SenderThread:809 [sender.py:send():302] send: files
+2022-08-05 06:39:54,640 INFO    SenderThread:809 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-08-05 06:39:54,651 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:39:54,651 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:39:54,727 DEBUG   SenderThread:809 [sender.py:send():302] send: telemetry
+2022-08-05 06:39:55,025 INFO    Thread-16 :809 [upload_job.py:push():138] Uploaded file /tmp/tmpfuit7s2jwandb/zg9pmcbg-wandb-metadata.json
+2022-08-05 06:39:55,447 INFO    Thread-12 :809 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_063954-282avtqu/files/output.log
+2022-08-05 06:39:55,448 INFO    Thread-12 :809 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_063954-282avtqu/files/requirements.txt
+2022-08-05 06:39:55,449 INFO    Thread-12 :809 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_063954-282avtqu/files/wandb-metadata.json
+2022-08-05 06:39:55,449 INFO    Thread-12 :809 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_063954-282avtqu/files/wandb-summary.json
+2022-08-05 06:39:59,457 INFO    Thread-12 :809 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_063954-282avtqu/files/output.log
+2022-08-05 06:40:02,466 INFO    Thread-12 :809 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_063954-282avtqu/files/output.log
+2022-08-05 06:40:09,730 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:40:09,731 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:40:22,690 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:40:24,843 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:40:24,843 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:40:25,532 INFO    Thread-12 :809 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_063954-282avtqu/files/config.yaml
+2022-08-05 06:40:27,537 INFO    Thread-12 :809 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220805_063954-282avtqu/files/output.log
+2022-08-05 06:40:39,917 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:40:39,918 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:40:52,826 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:40:54,991 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:40:54,991 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:41:10,062 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:41:10,062 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:41:22,957 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:41:25,128 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:41:25,128 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:41:40,218 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:41:40,219 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:41:53,090 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:41:55,336 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:41:55,337 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:42:10,409 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:42:10,410 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:42:23,221 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:42:25,573 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:42:25,573 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:42:40,644 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:42:40,644 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:42:53,354 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:42:55,717 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:42:55,717 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:43:10,855 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:43:10,855 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:43:23,485 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:43:25,930 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:43:25,930 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:43:41,002 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:43:41,002 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:43:53,621 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:43:56,079 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:43:56,079 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:44:11,149 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:44:11,149 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:44:23,756 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:44:26,249 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:44:26,249 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:44:41,322 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:44:41,323 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:44:53,890 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:44:56,397 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:44:56,398 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:45:11,466 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:45:11,466 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:45:24,033 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:45:26,535 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:45:26,535 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:45:41,605 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:45:41,606 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:45:54,171 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:45:56,675 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:45:56,675 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:46:11,745 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:46:11,746 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:46:24,306 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:46:26,819 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:46:26,819 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:46:41,892 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:46:41,892 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:46:54,443 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:46:56,965 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:46:56,965 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:47:12,052 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:47:12,053 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:47:24,576 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:47:27,123 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:47:27,124 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:47:42,195 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:47:42,195 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:47:54,710 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:47:57,290 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:47:57,291 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:48:12,640 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:48:12,641 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:48:24,841 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:48:27,714 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:48:27,714 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:48:42,787 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:48:42,788 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:48:54,977 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:48:57,891 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:48:57,892 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:49:12,961 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:49:12,962 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:49:25,117 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:49:28,036 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:49:28,036 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:49:43,111 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:49:43,112 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:49:55,251 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:49:58,194 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:49:58,195 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:50:13,258 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:50:13,259 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:50:25,393 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:50:28,335 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:50:28,335 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:50:43,408 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:50:43,408 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:50:55,532 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:50:58,484 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:50:58,484 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:51:13,558 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:51:13,559 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:51:25,667 DEBUG   SenderThread:809 [sender.py:send():302] send: stats
+2022-08-05 06:51:28,630 DEBUG   HandlerThread:809 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-05 06:51:28,631 DEBUG   SenderThread:809 [sender.py:send_request():316] send_request: stop_status
+2022-08-05 06:51:31,926 WARNING StreamThr :809 [internal.py:is_dead():388] Internal process exiting, parent pid 789 disappeared
+2022-08-05 06:51:31,926 ERROR   StreamThr :809 [internal.py:wandb_internal():149] Internal process shutdown.
+2022-08-05 06:51:32,656 INFO    MainThread:809 [internal.py:handle_exit():80] Internal process exited
+2022-08-05 06:51:32,657 WARNING MsgRouterThr:809 [router.py:message_loop():73] EOFError seen in message_loop

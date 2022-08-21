@@ -1,0 +1,23 @@
+
+Use GPU: 0 for training
+==> training...
+Traceback (most recent call last):
+  File "train_teacher.py", line 317, in <module>
+    main()
+  File "train_teacher.py", line 117, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_teacher.py", line 211, in main_worker
+    train_acc, train_acc_top5, train_loss, performance_metrics = train(epoch, train_loader, model, criterion, optimizer, opt)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/loops.py", line 453, in train_vanilla
+    result = classification_report(output, labels)
+  File "/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py", line 2110, in classification_report
+    y_type, y_true, y_pred = _check_targets(y_true, y_pred)
+  File "/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py", line 85, in _check_targets
+    type_true = type_of_target(y_true)
+  File "/usr/local/lib/python3.7/dist-packages/sklearn/utils/multiclass.py", line 278, in type_of_target
+    if is_multilabel(y):
+  File "/usr/local/lib/python3.7/dist-packages/sklearn/utils/multiclass.py", line 150, in is_multilabel
+    y = np.asarray(y)
+  File "/usr/local/lib/python3.7/dist-packages/torch/_tensor.py", line 757, in __array__
+    return self.numpy()
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.

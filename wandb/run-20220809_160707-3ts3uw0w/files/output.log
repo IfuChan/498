@@ -1,0 +1,21 @@
+
+Use GPU: 0 for training
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 4.650	Loss 1.0757	Acc@1 28.125	Acc@5 100.000	Precision 0.281	Recall 1.000	Macro_f1 0.220	Micro_f1 0.281	
+Epoch: [1][200/378]	GPU 0	Time: 139.212	Loss 0.6921	Acc@1 68.307	Acc@5 100.000	Precision 0.261	Recall 0.183	Macro_f1 0.488	Micro_f1 0.683	
+Traceback (most recent call last):
+  File "train_teacher.py", line 320, in <module>
+    main()
+  File "train_teacher.py", line 117, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_teacher.py", line 211, in main_worker
+    train_acc, train_acc_top5, train_loss, precision, recall, macro_f1, micro_f1 = train(epoch, train_loader, model, criterion, optimizer, opt)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/loops.py", line 87, in train_vanilla
+    update_classification_report(epoch, cl_report, opt, validation=False)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/util.py", line 68, in update_classification_report
+    zero_division=0, output_dict=True, target_names=['0', '1'])
+  File "/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py", line 2110, in classification_report
+    y_type, y_true, y_pred = _check_targets(y_true, y_pred)
+  File "/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py", line 95, in _check_targets
+    type_true, type_pred
+ValueError: Classification metrics can't handle a mix of binary and continuous-multioutput targets

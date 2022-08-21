@@ -1,0 +1,23 @@
+
+Use GPU: 0 for training
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 4.405	Loss 0.7004	Acc@1 43.750	Acc@5 100.000	
+Epoch: [1][200/378]	GPU 0	Time: 45.887	Loss 0.4928	Acc@1 75.498	Acc@5 100.000	
+ * Epoch 1, Acc@1 76.829, Acc@5 100.000, Time 157.29
+Test: [0/95]	GPU: 0	Time: 0.930	Loss 0.3810	Acc@1 85.938	Acc@5 100.000	
+Traceback (most recent call last):
+  File "train_teacher.py", line 292, in <module>
+    main()
+  File "train_teacher.py", line 117, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_teacher.py", line 241, in main_worker
+    metrics.to_csv(opt.save_folder+"/metrics_validation.csv", mode=('w' if epoch==1 else 'a'), index=False, header=(True if epoch==1 else False))
+  File "/usr/local/lib/python3.7/dist-packages/pandas/core/generic.py", line 3482, in to_csv
+    storage_options=storage_options,
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/formats/format.py", line 1105, in to_csv
+    csv_formatter.save()
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/formats/csvs.py", line 243, in save
+    storage_options=self.storage_options,
+  File "/usr/local/lib/python3.7/dist-packages/pandas/io/common.py", line 707, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: './save/teachers/models/vgg13_vanilla_rsna_pneumonia_trial_0/metrics_validation.csv'

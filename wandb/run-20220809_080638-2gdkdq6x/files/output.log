@@ -1,0 +1,11 @@
+
+Use GPU: 0 for training
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 8.989	Loss 0.8938	Acc@1 25.000	Acc@5 100.000	Precision 0.250	Recall 1.000	Macro_f1 0.200	Micro_f1 0.250	
+Epoch: [1][200/378]	GPU 0	Time: 147.457	Loss 0.6458	Acc@1 68.493	Acc@5 100.000	Precision 0.342	Recall 0.244	Macro_f1 0.518	Micro_f1 0.685	
+ * Epoch 1, Acc@1 71.432, Acc@5 100.000, precision 0.487, recall 0.357, macro_f1 0.593, micro_f1 0.714, Time 536.90
+Test: [0/95]	GPU: 0	Time: 1.191	Loss 0.5856	Acc@1 73.438	Acc@5 100.000	Precision 0.548	Recall 0.850	Macro_f1 0.723	Micro_f1 0.723	
+ ** Acc@1 65.448, Acc@5 100.000, precision 0.473, recall 0.811, macro_f1 0.644, micro_f1 0.654
+saving the best model!
+==> training...
+Epoch: [2][0/378]	GPU 0	Time: 1.238	Loss 0.5197	Acc@1 71.875	Acc@5 100.000	Precision 0.583	Recall 0.636	Macro_f1 0.695	Micro_f1 0.719	

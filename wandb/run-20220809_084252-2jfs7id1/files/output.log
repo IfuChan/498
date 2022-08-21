@@ -1,0 +1,15 @@
+
+Use GPU: 0 for training
+==> training...
+Traceback (most recent call last):
+  File "train_teacher.py", line 317, in <module>
+    main()
+  File "train_teacher.py", line 117, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_teacher.py", line 211, in main_worker
+    train_acc, train_acc_top5, train_loss, performance_metrics = train(epoch, train_loader, model, criterion, optimizer, opt)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/loops.py", line 453, in train_vanilla
+    performance_metrics.update(result)
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/util.py", line 45, in update
+    self.sum += val * n
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'

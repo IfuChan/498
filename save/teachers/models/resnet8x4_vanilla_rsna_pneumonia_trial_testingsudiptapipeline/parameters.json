@@ -1,0 +1,32 @@
+{
+    "batch_size": 32,
+    "dali": null,
+    "dataset": "rsna_pneumonia",
+    "deterministic": true,
+    "dist_url": "tcp://127.0.0.1:23451",
+    "epochs": 5,
+    "gpu": 0,
+    "gpu_id": 0,
+    "learning_rate": 0.05,
+    "lr_decay_epochs": [
+        150,
+        180,
+        210
+    ],
+    "lr_decay_rate": 0.1,
+    "model": "resnet8x4",
+    "model_name": "resnet8x4_vanilla_rsna_pneumonia_trial_testingsudiptapipeline",
+    "model_path": "./save/teachers/models",
+    "momentum": 0.9,
+    "multiprocessing_distributed": false,
+    "ngpus_per_node": 1,
+    "num_workers": 8,
+    "print_freq": 200,
+    "save_folder": "./save/teachers/models\\resnet8x4_vanilla_rsna_pneumonia_trial_testingsudiptapipeline",
+    "tb_folder": "./save/teachers/tensorboard\\resnet8x4_vanilla_rsna_pneumonia_trial_testingsudiptapipeline",
+    "tb_path": "./save/teachers/tensorboard",
+    "trial": "testingsudiptapipeline",
+    "weight_decay": 0.0005,
+    "Total params": 1.208354,
+    "Total time": 0.35
+}

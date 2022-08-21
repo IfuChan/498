@@ -1,0 +1,57 @@
+Use GPU: 0 for training
+==> loading teacher model
+==> done
+Test: [0/95]	GPU: 0	Time: 2.605	Loss 0.4596	Acc@1 87.500	Acc@5 100.000	Precision 0.875	Recall 0.700	
+teacher accuracy:  85.84187891559809
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 1.261	Loss 3.7140	Acc@1 70.312	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [1][200/378]	GPU 0	Time: 40.440	Loss 2.6995	Acc@1 68.525	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 1, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 149.82
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.994	Loss 0.6552	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+saving the best model!
+==> training...
+Epoch: [2][0/378]	GPU 0	Time: 1.055	Loss 2.7894	Acc@1 75.000	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [2][200/378]	GPU 0	Time: 40.013	Loss 2.1316	Acc@1 68.478	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 2, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 147.99
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.966	Loss 0.6545	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+==> training...
+Epoch: [3][0/378]	GPU 0	Time: 1.037	Loss 1.8520	Acc@1 64.062	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [3][200/378]	GPU 0	Time: 39.730	Loss 2.0044	Acc@1 68.322	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 3, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 147.96
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.962	Loss 0.7053	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+==> training...
+Epoch: [4][0/378]	GPU 0	Time: 1.022	Loss 1.6457	Acc@1 75.000	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [4][200/378]	GPU 0	Time: 39.713	Loss 1.9246	Acc@1 68.719	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 4, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 149.51
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 1.081	Loss 0.6264	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+==> training...
+Epoch: [5][0/378]	GPU 0	Time: 1.046	Loss 2.4679	Acc@1 59.375	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [5][200/378]	GPU 0	Time: 41.302	Loss 1.8983	Acc@1 68.369	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 5, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 151.52
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.963	Loss 0.5669	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+==> training...
+Epoch: [6][0/378]	GPU 0	Time: 1.127	Loss 1.6962	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [6][200/378]	GPU 0	Time: 40.654	Loss 1.8482	Acc@1 67.973	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 6, GPU 0, Acc@1 68.359, Acc@5 100.000, precision 0.000, recall 0.000, Time 149.07
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.970	Loss 0.5652	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Traceback (most recent call last):
+  File "train_student.py", line 461, in <module>
+    torch.save(state, save_file)
+  File "train_student.py", line 179, in main
+    else:
+  File "train_student.py", line 403, in main_worker
+    'recall': recall,
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/loops.py", line 334, in validate_distill
+    losses.update(loss.item(), images.size(0))
+KeyboardInterrupt

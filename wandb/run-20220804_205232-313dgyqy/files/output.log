@@ -1,0 +1,4 @@
+
+Use GPU: 0 for training
+==> training...
+Epoch: [1][0/426]	GPU 0	Time: 51.256	Loss 0.8179	Acc@1 37.500	Acc@5 100.000	Precision 0.375	Recall 1.000	

@@ -1,0 +1,379 @@
+
+Use GPU: 0 for training
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 11.086	Loss 0.9461	Acc@1 35.938	Acc@5 100.000	
+Epoch: [1][200/378]	GPU 0	Time: 108.548	Loss 0.7642	Acc@1 68.369	Acc@5 100.000	
+ * Epoch 1, Acc@1 70.849, Acc@5 100.000, Time 365.41
+Test: [0/95]	GPU: 0	Time: 1.390	Loss 0.6238	Acc@1 64.062	Acc@5 100.000	
+ ** Acc@1 66.573, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [2][0/378]	GPU 0	Time: 1.905	Loss 0.5442	Acc@1 75.000	Acc@5 100.000	
+Epoch: [2][200/378]	GPU 0	Time: 94.274	Loss 0.5131	Acc@1 74.829	Acc@5 100.000	
+ * Epoch 2, Acc@1 74.927, Acc@5 100.000, Time 346.21
+Test: [0/95]	GPU: 0	Time: 1.339	Loss 0.5141	Acc@1 70.312	Acc@5 100.000	
+ ** Acc@1 72.395, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [3][0/378]	GPU 0	Time: 1.912	Loss 0.3582	Acc@1 85.938	Acc@5 100.000	
+Epoch: [3][200/378]	GPU 0	Time: 93.145	Loss 0.4885	Acc@1 76.982	Acc@5 100.000	
+ * Epoch 3, Acc@1 77.209, Acc@5 100.000, Time 346.89
+Test: [0/95]	GPU: 0	Time: 1.335	Loss 0.5539	Acc@1 70.312	Acc@5 100.000	
+ ** Acc@1 67.582, Acc@5 100.000
+==> training...
+Epoch: [4][0/378]	GPU 0	Time: 1.890	Loss 0.4001	Acc@1 79.688	Acc@5 100.000	
+Epoch: [4][200/378]	GPU 0	Time: 89.167	Loss 0.4638	Acc@1 78.172	Acc@5 100.000	
+ * Epoch 4, Acc@1 77.987, Acc@5 100.000, Time 307.98
+Test: [0/95]	GPU: 0	Time: 0.963	Loss 0.3848	Acc@1 84.375	Acc@5 100.000	
+ ** Acc@1 77.059, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [5][0/378]	GPU 0	Time: 1.484	Loss 0.5652	Acc@1 76.562	Acc@5 100.000	
+Epoch: [5][200/378]	GPU 0	Time: 78.263	Loss 0.4604	Acc@1 78.242	Acc@5 100.000	
+ * Epoch 5, Acc@1 78.553, Acc@5 100.000, Time 290.87
+Test: [0/95]	GPU: 0	Time: 0.963	Loss 0.4009	Acc@1 84.375	Acc@5 100.000	
+ ** Acc@1 78.763, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [6][0/378]	GPU 0	Time: 1.448	Loss 0.4315	Acc@1 76.562	Acc@5 100.000	
+Epoch: [6][200/378]	GPU 0	Time: 78.158	Loss 0.4529	Acc@1 78.661	Acc@5 100.000	
+ * Epoch 6, Acc@1 78.930, Acc@5 100.000, Time 291.16
+Test: [0/95]	GPU: 0	Time: 0.960	Loss 0.3866	Acc@1 85.938	Acc@5 100.000	
+ ** Acc@1 79.871, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [7][0/378]	GPU 0	Time: 1.456	Loss 0.4775	Acc@1 79.688	Acc@5 100.000	
+Epoch: [7][200/378]	GPU 0	Time: 78.093	Loss 0.4435	Acc@1 78.980	Acc@5 100.000	
+ * Epoch 7, Acc@1 78.917, Acc@5 100.000, Time 291.13
+Test: [0/95]	GPU: 0	Time: 0.988	Loss 0.4075	Acc@1 82.812	Acc@5 100.000	
+ ** Acc@1 80.069, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [8][0/378]	GPU 0	Time: 1.497	Loss 0.4022	Acc@1 79.688	Acc@5 100.000	
+Epoch: [8][200/378]	GPU 0	Time: 78.214	Loss 0.4390	Acc@1 79.361	Acc@5 100.000	
+ * Epoch 8, Acc@1 79.298, Acc@5 100.000, Time 291.63
+Test: [0/95]	GPU: 0	Time: 0.971	Loss 0.4004	Acc@1 82.812	Acc@5 100.000	
+ ** Acc@1 79.011, Acc@5 100.000
+==> training...
+Epoch: [9][0/378]	GPU 0	Time: 1.455	Loss 0.4191	Acc@1 79.688	Acc@5 100.000	
+Epoch: [9][200/378]	GPU 0	Time: 78.203	Loss 0.4338	Acc@1 79.874	Acc@5 100.000	
+ * Epoch 9, Acc@1 79.517, Acc@5 100.000, Time 291.45
+Test: [0/95]	GPU: 0	Time: 0.973	Loss 0.4112	Acc@1 82.812	Acc@5 100.000	
+ ** Acc@1 78.432, Acc@5 100.000
+==> training...
+Epoch: [10][0/378]	GPU 0	Time: 1.427	Loss 0.4160	Acc@1 79.688	Acc@5 100.000	
+Epoch: [10][200/378]	GPU 0	Time: 78.075	Loss 0.4370	Acc@1 79.501	Acc@5 100.000	
+ * Epoch 10, Acc@1 79.612, Acc@5 100.000, Time 291.02
+Test: [0/95]	GPU: 0	Time: 0.970	Loss 0.4167	Acc@1 81.250	Acc@5 100.000	
+ ** Acc@1 78.564, Acc@5 100.000
+==> training...
+Epoch: [11][0/378]	GPU 0	Time: 1.501	Loss 0.3865	Acc@1 81.250	Acc@5 100.000	
+Epoch: [11][200/378]	GPU 0	Time: 78.372	Loss 0.4369	Acc@1 79.594	Acc@5 100.000	
+ * Epoch 11, Acc@1 79.906, Acc@5 100.000, Time 291.58
+Test: [0/95]	GPU: 0	Time: 0.995	Loss 0.4355	Acc@1 81.250	Acc@5 100.000	
+ ** Acc@1 78.200, Acc@5 100.000
+==> training...
+Epoch: [12][0/378]	GPU 0	Time: 1.455	Loss 0.6300	Acc@1 73.438	Acc@5 100.000	
+Epoch: [12][200/378]	GPU 0	Time: 78.222	Loss 0.4366	Acc@1 79.711	Acc@5 100.000	
+ * Epoch 12, Acc@1 79.749, Acc@5 100.000, Time 290.91
+Test: [0/95]	GPU: 0	Time: 0.960	Loss 0.4428	Acc@1 78.125	Acc@5 100.000	
+ ** Acc@1 79.077, Acc@5 100.000
+==> training...
+Epoch: [13][0/378]	GPU 0	Time: 1.493	Loss 0.5633	Acc@1 73.438	Acc@5 100.000	
+Epoch: [13][200/378]	GPU 0	Time: 78.399	Loss 0.4286	Acc@1 80.138	Acc@5 100.000	
+ * Epoch 13, Acc@1 80.079, Acc@5 100.000, Time 291.46
+Test: [0/95]	GPU: 0	Time: 1.443	Loss 0.3910	Acc@1 82.812	Acc@5 100.000	
+ ** Acc@1 79.077, Acc@5 100.000
+==> training...
+Epoch: [14][0/378]	GPU 0	Time: 1.464	Loss 0.3590	Acc@1 82.812	Acc@5 100.000	
+Epoch: [14][200/378]	GPU 0	Time: 78.272	Loss 0.4241	Acc@1 79.998	Acc@5 100.000	
+ * Epoch 14, Acc@1 79.976, Acc@5 100.000, Time 292.40
+Test: [0/95]	GPU: 0	Time: 0.976	Loss 0.3905	Acc@1 84.375	Acc@5 100.000	
+ ** Acc@1 80.781, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [15][0/378]	GPU 0	Time: 1.500	Loss 0.3814	Acc@1 78.125	Acc@5 100.000	
+Epoch: [15][200/378]	GPU 0	Time: 78.677	Loss 0.4199	Acc@1 80.519	Acc@5 100.000	
+ * Epoch 15, Acc@1 80.311, Acc@5 100.000, Time 292.73
+Test: [0/95]	GPU: 0	Time: 0.977	Loss 0.3792	Acc@1 79.688	Acc@5 100.000	
+ ** Acc@1 79.921, Acc@5 100.000
+==> training...
+Epoch: [16][0/378]	GPU 0	Time: 1.467	Loss 0.2996	Acc@1 89.062	Acc@5 100.000	
+Epoch: [16][200/378]	GPU 0	Time: 78.953	Loss 0.4203	Acc@1 80.418	Acc@5 100.000	
+ * Epoch 16, Acc@1 80.394, Acc@5 100.000, Time 292.43
+Test: [0/95]	GPU: 0	Time: 0.985	Loss 0.4477	Acc@1 78.125	Acc@5 100.000	
+ ** Acc@1 77.506, Acc@5 100.000
+==> training...
+Epoch: [17][0/378]	GPU 0	Time: 1.479	Loss 0.3701	Acc@1 84.375	Acc@5 100.000	
+Epoch: [17][200/378]	GPU 0	Time: 78.298	Loss 0.4198	Acc@1 80.861	Acc@5 100.000	
+ * Epoch 17, Acc@1 80.493, Acc@5 100.000, Time 291.77
+Test: [0/95]	GPU: 0	Time: 0.972	Loss 0.4163	Acc@1 79.688	Acc@5 100.000	
+ ** Acc@1 76.927, Acc@5 100.000
+==> training...
+Epoch: [18][0/378]	GPU 0	Time: 1.441	Loss 0.4996	Acc@1 75.000	Acc@5 100.000	
+Epoch: [18][200/378]	GPU 0	Time: 78.259	Loss 0.4149	Acc@1 80.807	Acc@5 100.000	
+ * Epoch 18, Acc@1 80.547, Acc@5 100.000, Time 291.37
+Test: [0/95]	GPU: 0	Time: 1.389	Loss 0.3566	Acc@1 82.812	Acc@5 100.000	
+ ** Acc@1 80.549, Acc@5 100.000
+==> training...
+Epoch: [19][0/378]	GPU 0	Time: 1.474	Loss 0.3482	Acc@1 85.938	Acc@5 100.000	
+Epoch: [19][200/378]	GPU 0	Time: 78.603	Loss 0.4130	Acc@1 80.690	Acc@5 100.000	
+ * Epoch 19, Acc@1 80.654, Acc@5 100.000, Time 292.86
+Test: [0/95]	GPU: 0	Time: 0.967	Loss 0.3631	Acc@1 84.375	Acc@5 100.000	
+ ** Acc@1 79.524, Acc@5 100.000
+==> training...
+Epoch: [20][0/378]	GPU 0	Time: 1.448	Loss 0.3751	Acc@1 82.812	Acc@5 100.000	
+Epoch: [20][200/378]	GPU 0	Time: 79.033	Loss 0.4109	Acc@1 80.916	Acc@5 100.000	
+ * Epoch 20, Acc@1 80.770, Acc@5 100.000, Time 292.73
+Test: [0/95]	GPU: 0	Time: 0.975	Loss 0.4189	Acc@1 84.375	Acc@5 100.000	
+ ** Acc@1 79.673, Acc@5 100.000
+==> training...
+Epoch: [21][0/378]	GPU 0	Time: 1.449	Loss 0.6462	Acc@1 70.312	Acc@5 100.000	
+Epoch: [21][200/378]	GPU 0	Time: 78.249	Loss 0.4111	Acc@1 80.504	Acc@5 100.000	
+ * Epoch 21, Acc@1 80.832, Acc@5 100.000, Time 291.48
+Test: [0/95]	GPU: 0	Time: 0.962	Loss 0.5124	Acc@1 78.125	Acc@5 100.000	
+ ** Acc@1 76.183, Acc@5 100.000
+==> training...
+Epoch: [22][0/378]	GPU 0	Time: 1.473	Loss 0.3391	Acc@1 90.625	Acc@5 100.000	
+Epoch: [22][200/378]	GPU 0	Time: 78.446	Loss 0.4025	Acc@1 81.460	Acc@5 100.000	
+ * Epoch 22, Acc@1 81.101, Acc@5 100.000, Time 292.53
+Test: [0/95]	GPU: 0	Time: 0.973	Loss 0.3626	Acc@1 84.375	Acc@5 100.000	
+ ** Acc@1 78.002, Acc@5 100.000
+==> training...
+Epoch: [23][0/378]	GPU 0	Time: 1.448	Loss 0.4601	Acc@1 81.250	Acc@5 100.000	
+Epoch: [23][200/378]	GPU 0	Time: 78.942	Loss 0.4064	Acc@1 81.367	Acc@5 100.000	
+ * Epoch 23, Acc@1 81.130, Acc@5 100.000, Time 292.42
+Test: [0/95]	GPU: 0	Time: 0.967	Loss 0.3935	Acc@1 79.688	Acc@5 100.000	
+ ** Acc@1 78.415, Acc@5 100.000
+==> training...
+Epoch: [24][0/378]	GPU 0	Time: 1.451	Loss 0.4054	Acc@1 84.375	Acc@5 100.000	
+Epoch: [24][200/378]	GPU 0	Time: 78.335	Loss 0.4016	Acc@1 81.685	Acc@5 100.000	
+ * Epoch 24, Acc@1 81.126, Acc@5 100.000, Time 292.55
+Test: [0/95]	GPU: 0	Time: 0.980	Loss 0.4328	Acc@1 76.562	Acc@5 100.000	
+ ** Acc@1 73.983, Acc@5 100.000
+==> training...
+Epoch: [25][0/378]	GPU 0	Time: 1.415	Loss 0.2622	Acc@1 92.188	Acc@5 100.000	
+Epoch: [25][200/378]	GPU 0	Time: 78.695	Loss 0.3995	Acc@1 81.281	Acc@5 100.000	
+ * Epoch 25, Acc@1 81.018, Acc@5 100.000, Time 292.29
+Test: [0/95]	GPU: 0	Time: 0.969	Loss 0.3655	Acc@1 84.375	Acc@5 100.000	
+ ** Acc@1 81.641, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [26][0/378]	GPU 0	Time: 1.456	Loss 0.4593	Acc@1 76.562	Acc@5 100.000	
+Epoch: [26][200/378]	GPU 0	Time: 78.173	Loss 0.4020	Acc@1 81.499	Acc@5 100.000	
+ * Epoch 26, Acc@1 81.237, Acc@5 100.000, Time 291.32
+Test: [0/95]	GPU: 0	Time: 0.987	Loss 0.3933	Acc@1 84.375	Acc@5 100.000	
+ ** Acc@1 79.739, Acc@5 100.000
+==> training...
+Epoch: [27][0/378]	GPU 0	Time: 1.502	Loss 0.3484	Acc@1 87.500	Acc@5 100.000	
+Epoch: [27][200/378]	GPU 0	Time: 78.590	Loss 0.4024	Acc@1 81.056	Acc@5 100.000	
+ * Epoch 27, Acc@1 81.113, Acc@5 100.000, Time 292.69
+Test: [0/95]	GPU: 0	Time: 0.973	Loss 0.3734	Acc@1 82.812	Acc@5 100.000	
+ ** Acc@1 79.854, Acc@5 100.000
+==> training...
+Epoch: [28][0/378]	GPU 0	Time: 1.468	Loss 0.3139	Acc@1 85.938	Acc@5 100.000	
+Epoch: [28][200/378]	GPU 0	Time: 78.132	Loss 0.3995	Acc@1 81.678	Acc@5 100.000	
+ * Epoch 28, Acc@1 81.626, Acc@5 100.000, Time 291.52
+Test: [0/95]	GPU: 0	Time: 0.973	Loss 0.4270	Acc@1 78.125	Acc@5 100.000	
+ ** Acc@1 77.440, Acc@5 100.000
+==> training...
+Epoch: [29][0/378]	GPU 0	Time: 1.466	Loss 0.2853	Acc@1 84.375	Acc@5 100.000	
+Epoch: [29][200/378]	GPU 0	Time: 78.713	Loss 0.3922	Acc@1 82.066	Acc@5 100.000	
+ * Epoch 29, Acc@1 81.659, Acc@5 100.000, Time 292.62
+Test: [0/95]	GPU: 0	Time: 0.970	Loss 0.4751	Acc@1 76.562	Acc@5 100.000	
+ ** Acc@1 75.240, Acc@5 100.000
+==> training...
+Epoch: [30][0/378]	GPU 0	Time: 1.418	Loss 0.3241	Acc@1 85.938	Acc@5 100.000	
+Epoch: [30][200/378]	GPU 0	Time: 78.136	Loss 0.3985	Acc@1 81.569	Acc@5 100.000	
+ * Epoch 30, Acc@1 81.672, Acc@5 100.000, Time 291.65
+Test: [0/95]	GPU: 0	Time: 1.417	Loss 0.5007	Acc@1 75.000	Acc@5 100.000	
+ ** Acc@1 71.998, Acc@5 100.000
+==> training...
+Epoch: [31][0/378]	GPU 0	Time: 1.486	Loss 0.4110	Acc@1 75.000	Acc@5 100.000	
+Epoch: [31][200/378]	GPU 0	Time: 78.810	Loss 0.3722	Acc@1 83.349	Acc@5 100.000	
+ * Epoch 31, Acc@1 83.297, Acc@5 100.000, Time 292.45
+Test: [0/95]	GPU: 0	Time: 0.983	Loss 0.3315	Acc@1 87.500	Acc@5 100.000	
+ ** Acc@1 82.633, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [32][0/378]	GPU 0	Time: 1.431	Loss 0.3741	Acc@1 89.062	Acc@5 100.000	
+Epoch: [32][200/378]	GPU 0	Time: 78.376	Loss 0.3554	Acc@1 83.885	Acc@5 100.000	
+ * Epoch 32, Acc@1 83.843, Acc@5 100.000, Time 292.52
+Test: [0/95]	GPU: 0	Time: 0.958	Loss 0.3142	Acc@1 89.062	Acc@5 100.000	
+ ** Acc@1 82.749, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [33][0/378]	GPU 0	Time: 1.480	Loss 0.3378	Acc@1 84.375	Acc@5 100.000	
+Epoch: [33][200/378]	GPU 0	Time: 78.224	Loss 0.3512	Acc@1 84.305	Acc@5 100.000	
+ * Epoch 33, Acc@1 84.289, Acc@5 100.000, Time 291.61
+Test: [0/95]	GPU: 0	Time: 0.978	Loss 0.3619	Acc@1 84.375	Acc@5 100.000	
+ ** Acc@1 82.534, Acc@5 100.000
+==> training...
+Epoch: [34][0/378]	GPU 0	Time: 1.469	Loss 0.2409	Acc@1 90.625	Acc@5 100.000	
+Epoch: [34][200/378]	GPU 0	Time: 78.661	Loss 0.3375	Acc@1 84.616	Acc@5 100.000	
+ * Epoch 34, Acc@1 84.769, Acc@5 100.000, Time 292.43
+Test: [0/95]	GPU: 0	Time: 0.964	Loss 0.3245	Acc@1 87.500	Acc@5 100.000	
+ ** Acc@1 83.030, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [35][0/378]	GPU 0	Time: 1.434	Loss 0.3546	Acc@1 84.375	Acc@5 100.000	
+Epoch: [35][200/378]	GPU 0	Time: 78.440	Loss 0.3240	Acc@1 85.782	Acc@5 100.000	
+ * Epoch 35, Acc@1 85.484, Acc@5 100.000, Time 292.44
+Test: [0/95]	GPU: 0	Time: 0.970	Loss 0.3134	Acc@1 87.500	Acc@5 100.000	
+ ** Acc@1 82.170, Acc@5 100.000
+==> training...
+Epoch: [36][0/378]	GPU 0	Time: 1.442	Loss 0.3567	Acc@1 85.938	Acc@5 100.000	
+Epoch: [36][200/378]	GPU 0	Time: 78.307	Loss 0.3126	Acc@1 86.350	Acc@5 100.000	
+ * Epoch 36, Acc@1 86.237, Acc@5 100.000, Time 292.53
+Test: [0/95]	GPU: 0	Time: 0.969	Loss 0.3831	Acc@1 87.500	Acc@5 100.000	
+ ** Acc@1 81.905, Acc@5 100.000
+==> training...
+Epoch: [37][0/378]	GPU 0	Time: 1.462	Loss 0.3014	Acc@1 85.938	Acc@5 100.000	
+Epoch: [37][200/378]	GPU 0	Time: 79.565	Loss 0.3038	Acc@1 86.769	Acc@5 100.000	
+ * Epoch 37, Acc@1 86.998, Acc@5 100.000, Time 293.91
+Test: [0/95]	GPU: 0	Time: 1.038	Loss 0.4169	Acc@1 82.812	Acc@5 100.000	
+ ** Acc@1 81.343, Acc@5 100.000
+==> training...
+Epoch: [38][0/378]	GPU 0	Time: 1.474	Loss 0.3005	Acc@1 84.375	Acc@5 100.000	
+Epoch: [38][200/378]	GPU 0	Time: 78.853	Loss 0.2799	Acc@1 88.402	Acc@5 100.000	
+ * Epoch 38, Acc@1 87.627, Acc@5 100.000, Time 292.64
+Test: [0/95]	GPU: 0	Time: 0.965	Loss 0.3657	Acc@1 82.812	Acc@5 100.000	
+ ** Acc@1 82.832, Acc@5 100.000
+==> training...
+Epoch: [39][0/378]	GPU 0	Time: 1.423	Loss 0.2733	Acc@1 89.062	Acc@5 100.000	
+Epoch: [39][200/378]	GPU 0	Time: 78.674	Loss 0.2725	Acc@1 88.402	Acc@5 100.000	
+ * Epoch 39, Acc@1 88.148, Acc@5 100.000, Time 292.41
+Test: [0/95]	GPU: 0	Time: 0.958	Loss 0.3098	Acc@1 87.500	Acc@5 100.000	
+ ** Acc@1 82.898, Acc@5 100.000
+==> training...
+Epoch: [40][0/378]	GPU 0	Time: 1.451	Loss 0.2225	Acc@1 87.500	Acc@5 100.000	
+Epoch: [40][200/378]	GPU 0	Time: 78.694	Loss 0.2541	Acc@1 89.661	Acc@5 100.000	
+ * Epoch 40, Acc@1 89.058, Acc@5 100.000, Time 292.70
+Test: [0/95]	GPU: 0	Time: 0.973	Loss 0.3478	Acc@1 85.938	Acc@5 100.000	
+ ** Acc@1 81.260, Acc@5 100.000
+==> training...
+Epoch: [41][0/378]	GPU 0	Time: 1.483	Loss 0.2140	Acc@1 93.750	Acc@5 100.000	
+Epoch: [41][200/378]	GPU 0	Time: 78.598	Loss 0.1993	Acc@1 92.607	Acc@5 100.000	
+ * Epoch 41, Acc@1 92.887, Acc@5 100.000, Time 292.20
+Test: [0/95]	GPU: 0	Time: 0.968	Loss 0.3131	Acc@1 85.938	Acc@5 100.000	
+ ** Acc@1 83.923, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [42][0/378]	GPU 0	Time: 1.484	Loss 0.1407	Acc@1 96.875	Acc@5 100.000	
+Epoch: [42][200/378]	GPU 0	Time: 78.476	Loss 0.1572	Acc@1 94.831	Acc@5 100.000	
+ * Epoch 42, Acc@1 94.864, Acc@5 100.000, Time 292.46
+Test: [0/95]	GPU: 0	Time: 0.967	Loss 0.3945	Acc@1 84.375	Acc@5 100.000	
+ ** Acc@1 84.568, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [43][0/378]	GPU 0	Time: 1.483	Loss 0.2880	Acc@1 89.062	Acc@5 100.000	
+Epoch: [43][200/378]	GPU 0	Time: 78.609	Loss 0.1348	Acc@1 95.623	Acc@5 100.000	
+ * Epoch 43, Acc@1 95.695, Acc@5 100.000, Time 292.50
+Test: [0/95]	GPU: 0	Time: 0.987	Loss 0.4160	Acc@1 85.938	Acc@5 100.000	
+ ** Acc@1 85.263, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [44][0/378]	GPU 0	Time: 1.448	Loss 0.1610	Acc@1 95.312	Acc@5 100.000	
+Epoch: [44][200/378]	GPU 0	Time: 78.619	Loss 0.1126	Acc@1 96.720	Acc@5 100.000	
+ * Epoch 44, Acc@1 96.783, Acc@5 100.000, Time 292.35
+Test: [0/95]	GPU: 0	Time: 0.972	Loss 0.3296	Acc@1 90.625	Acc@5 100.000	
+ ** Acc@1 84.469, Acc@5 100.000
+==> training...
+Epoch: [45][0/378]	GPU 0	Time: 1.451	Loss 0.1088	Acc@1 96.875	Acc@5 100.000	
+Epoch: [45][200/378]	GPU 0	Time: 78.635	Loss 0.0965	Acc@1 97.279	Acc@5 100.000	
+ * Epoch 45, Acc@1 97.246, Acc@5 100.000, Time 292.79
+Test: [0/95]	GPU: 0	Time: 0.980	Loss 0.3853	Acc@1 85.938	Acc@5 100.000	
+ ** Acc@1 84.916, Acc@5 100.000
+==> training...
+Epoch: [46][0/378]	GPU 0	Time: 1.469	Loss 0.0450	Acc@1 100.000	Acc@5 100.000	
+Epoch: [46][200/378]	GPU 0	Time: 78.612	Loss 0.0837	Acc@1 97.963	Acc@5 100.000	
+ * Epoch 46, Acc@1 97.920, Acc@5 100.000, Time 292.56
+Test: [0/95]	GPU: 0	Time: 0.984	Loss 0.3001	Acc@1 92.188	Acc@5 100.000	
+ ** Acc@1 84.767, Acc@5 100.000
+==> training...
+Epoch: [47][0/378]	GPU 0	Time: 1.409	Loss 0.0669	Acc@1 98.438	Acc@5 100.000	
+Epoch: [47][200/378]	GPU 0	Time: 78.524	Loss 0.0691	Acc@1 98.414	Acc@5 100.000	
+ * Epoch 47, Acc@1 98.400, Acc@5 100.000, Time 292.62
+Test: [0/95]	GPU: 0	Time: 0.997	Loss 0.4481	Acc@1 84.375	Acc@5 100.000	
+ ** Acc@1 85.776, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [48][0/378]	GPU 0	Time: 1.454	Loss 0.0519	Acc@1 98.438	Acc@5 100.000	
+Epoch: [48][200/378]	GPU 0	Time: 78.871	Loss 0.0544	Acc@1 98.935	Acc@5 100.000	
+ * Epoch 48, Acc@1 98.875, Acc@5 100.000, Time 292.91
+Test: [0/95]	GPU: 0	Time: 0.971	Loss 0.4527	Acc@1 90.625	Acc@5 100.000	
+ ** Acc@1 85.362, Acc@5 100.000
+==> training...
+Epoch: [49][0/378]	GPU 0	Time: 1.879	Loss 0.0275	Acc@1 100.000	Acc@5 100.000	
+Epoch: [49][200/378]	GPU 0	Time: 79.190	Loss 0.0461	Acc@1 99.238	Acc@5 100.000	
+ * Epoch 49, Acc@1 99.243, Acc@5 100.000, Time 293.28
+Test: [0/95]	GPU: 0	Time: 0.977	Loss 0.3196	Acc@1 89.062	Acc@5 100.000	
+ ** Acc@1 85.445, Acc@5 100.000
+==> training...
+Epoch: [50][0/378]	GPU 0	Time: 1.460	Loss 0.0288	Acc@1 100.000	Acc@5 100.000	
+Epoch: [50][200/378]	GPU 0	Time: 78.789	Loss 0.0343	Acc@1 99.596	Acc@5 100.000	
+ * Epoch 50, Acc@1 99.537, Acc@5 100.000, Time 293.86
+Test: [0/95]	GPU: 0	Time: 0.967	Loss 0.4772	Acc@1 87.500	Acc@5 100.000	
+ ** Acc@1 84.998, Acc@5 100.000
+==> training...
+Epoch: [51][0/378]	GPU 0	Time: 1.489	Loss 0.0215	Acc@1 100.000	Acc@5 100.000	
+Epoch: [51][200/378]	GPU 0	Time: 79.534	Loss 0.0282	Acc@1 99.720	Acc@5 100.000	
+ * Epoch 51, Acc@1 99.727, Acc@5 100.000, Time 294.13
+Test: [0/95]	GPU: 0	Time: 1.011	Loss 0.3921	Acc@1 90.625	Acc@5 100.000	
+ ** Acc@1 85.726, Acc@5 100.000
+==> training...
+Epoch: [52][0/378]	GPU 0	Time: 1.466	Loss 0.0261	Acc@1 100.000	Acc@5 100.000	
+Epoch: [52][200/378]	GPU 0	Time: 78.391	Loss 0.0273	Acc@1 99.767	Acc@5 100.000	
+ * Epoch 52, Acc@1 99.739, Acc@5 100.000, Time 293.12
+Test: [0/95]	GPU: 0	Time: 0.973	Loss 0.4703	Acc@1 87.500	Acc@5 100.000	
+ ** Acc@1 86.107, Acc@5 100.000
+saving the best model!
+==> training...
+Epoch: [53][0/378]	GPU 0	Time: 1.462	Loss 0.0223	Acc@1 100.000	Acc@5 100.000	
+Epoch: [53][200/378]	GPU 0	Time: 78.533	Loss 0.0264	Acc@1 99.813	Acc@5 100.000	
+ * Epoch 53, Acc@1 99.752, Acc@5 100.000, Time 292.90
+Test: [0/95]	GPU: 0	Time: 0.974	Loss 0.5386	Acc@1 89.062	Acc@5 100.000	
+ ** Acc@1 85.726, Acc@5 100.000
+==> training...
+Epoch: [54][0/378]	GPU 0	Time: 1.459	Loss 0.0167	Acc@1 100.000	Acc@5 100.000	
+Epoch: [54][200/378]	GPU 0	Time: 78.662	Loss 0.0253	Acc@1 99.829	Acc@5 100.000	
+ * Epoch 54, Acc@1 99.826, Acc@5 100.000, Time 292.71
+Test: [0/95]	GPU: 0	Time: 0.986	Loss 0.6076	Acc@1 84.375	Acc@5 100.000	
+ ** Acc@1 85.362, Acc@5 100.000
+==> training...
+Epoch: [55][0/378]	GPU 0	Time: 1.488	Loss 0.0148	Acc@1 100.000	Acc@5 100.000	
+Epoch: [55][200/378]	GPU 0	Time: 78.856	Loss 0.0245	Acc@1 99.899	Acc@5 100.000	
+ * Epoch 55, Acc@1 99.855, Acc@5 100.000, Time 292.90
+Test: [0/95]	GPU: 0	Time: 1.211	Loss 0.5882	Acc@1 87.500	Acc@5 100.000	
+ ** Acc@1 85.726, Acc@5 100.000
+==> training...
+Epoch: [56][0/378]	GPU 0	Time: 1.422	Loss 0.0342	Acc@1 100.000	Acc@5 100.000	
+Epoch: [56][200/378]	GPU 0	Time: 78.881	Loss 0.0234	Acc@1 99.837	Acc@5 100.000	
+ * Epoch 56, Acc@1 99.830, Acc@5 100.000, Time 293.08
+Test: [0/95]	GPU: 0	Time: 0.970	Loss 0.4201	Acc@1 90.625	Acc@5 100.000	
+ ** Acc@1 85.676, Acc@5 100.000
+==> training...
+Epoch: [57][0/378]	GPU 0	Time: 1.680	Loss 0.0441	Acc@1 98.438	Acc@5 100.000	
+Epoch: [57][200/378]	GPU 0	Time: 79.850	Loss 0.0239	Acc@1 99.782	Acc@5 100.000	
+ * Epoch 57, Acc@1 99.789, Acc@5 100.000, Time 294.40
+Test: [0/95]	GPU: 0	Time: 0.972	Loss 0.3694	Acc@1 92.188	Acc@5 100.000	
+ ** Acc@1 85.743, Acc@5 100.000
+==> training...
+Epoch: [58][0/378]	GPU 0	Time: 1.454	Loss 0.0297	Acc@1 100.000	Acc@5 100.000	
+Epoch: [58][200/378]	GPU 0	Time: 78.339	Loss 0.0227	Acc@1 99.899	Acc@5 100.000	
+ * Epoch 58, Acc@1 99.868, Acc@5 100.000, Time 292.81
+Test: [0/95]	GPU: 0	Time: 0.965	Loss 0.3922	Acc@1 90.625	Acc@5 100.000	
+ ** Acc@1 85.395, Acc@5 100.000
+==> training...
+Epoch: [59][0/378]	GPU 0	Time: 1.414	Loss 0.0150	Acc@1 100.000	Acc@5 100.000	
+Epoch: [59][200/378]	GPU 0	Time: 78.201	Loss 0.0230	Acc@1 99.860	Acc@5 100.000	
+ * Epoch 59, Acc@1 99.839, Acc@5 100.000, Time 292.49
+Test: [0/95]	GPU: 0	Time: 0.984	Loss 0.5389	Acc@1 85.938	Acc@5 100.000	
+ ** Acc@1 85.792, Acc@5 100.000
+==> training...
+Epoch: [60][0/378]	GPU 0	Time: 1.423	Loss 0.0335	Acc@1 98.438	Acc@5 100.000	
+Epoch: [60][200/378]	GPU 0	Time: 78.414	Loss 0.0226	Acc@1 99.868	Acc@5 100.000	
+ * Epoch 60, Acc@1 99.864, Acc@5 100.000, Time 292.69
+Test: [0/95]	GPU: 0	Time: 0.989	Loss 0.3544	Acc@1 90.625	Acc@5 100.000	
+ ** Acc@1 85.726, Acc@5 100.000
+best accuracy: 86.10651669264077

@@ -1,0 +1,37 @@
+
+Use GPU: 0 for training
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 10.245	Loss 0.6480	Acc@1 76.562	Acc@5 100.000	Precision 0.500	Recall 0.467	Macro_f1 0.483	Micro_f1 0.483	
+Epoch: [1][200/378]	GPU 0	Time: 89.902	Loss 0.5460	Acc@1 72.419	Acc@5 100.000	Precision 0.599	Recall 0.441	Macro_f1 0.458	Micro_f1 0.458	
+ * Epoch 1, Acc@1 74.042, Acc@5 100.000, precision 0.633, recall 0.487, macro_f1 0.509, micro_f1 0.509, Time 308.60
+Test: [0/95]	GPU: 0	Time: 1.054	Loss 0.9358	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	Macro_f1 0.000	Micro_f1 0.000	
+ ** Acc@1 68.640, Acc@5 100.000, precision 0.126, recall 0.007, macro_f1 0.013, micro_f1 0.013
+saving the best model!
+==> training...
+Epoch: [2][0/378]	GPU 0	Time: 1.605	Loss 0.4411	Acc@1 79.688	Acc@5 100.000	Precision 0.526	Recall 0.714	Macro_f1 0.606	Micro_f1 0.606	
+Epoch: [2][200/378]	GPU 0	Time: 75.603	Loss 0.4824	Acc@1 76.943	Acc@5 100.000	Precision 0.676	Recall 0.546	Macro_f1 0.583	Micro_f1 0.583	
+ * Epoch 2, Acc@1 77.110, Acc@5 100.000, precision 0.679, recall 0.556, macro_f1 0.594, micro_f1 0.594, Time 272.37
+Test: [0/95]	GPU: 0	Time: 0.969	Loss 0.3994	Acc@1 87.500	Acc@5 100.000	Precision 0.800	Recall 0.800	Macro_f1 0.800	Micro_f1 0.800	
+ ** Acc@1 78.812, Acc@5 100.000, precision 0.680, recall 0.633, macro_f1 0.650, micro_f1 0.650
+saving the best model!
+==> training...
+Epoch: [3][0/378]	GPU 0	Time: 1.543	Loss 0.3441	Acc@1 84.375	Acc@5 100.000	Precision 0.708	Recall 0.850	Macro_f1 0.773	Micro_f1 0.773	
+Epoch: [3][200/378]	GPU 0	Time: 74.370	Loss 0.4722	Acc@1 77.262	Acc@5 100.000	Precision 0.678	Recall 0.581	Macro_f1 0.612	Micro_f1 0.612	
+ * Epoch 3, Acc@1 77.718, Acc@5 100.000, precision 0.683, recall 0.579, macro_f1 0.613, micro_f1 0.613, Time 278.92
+Test: [0/95]	GPU: 0	Time: 1.030	Loss 0.5160	Acc@1 75.000	Acc@5 100.000	Precision 0.562	Recall 0.900	Macro_f1 0.692	Micro_f1 0.692	
+ ** Acc@1 70.824, Acc@5 100.000, precision 0.524, recall 0.886, macro_f1 0.654, micro_f1 0.654
+==> training...
+Epoch: [4][0/378]	GPU 0	Time: 1.586	Loss 0.4502	Acc@1 78.125	Acc@5 100.000	Precision 0.692	Recall 0.750	Macro_f1 0.720	Micro_f1 0.720	
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/linecache.py", line 74, in checkcache
+    stat = os.stat(fullname)
+KeyboardInterrupt
+Original exception was:
+Traceback (most recent call last):
+  File "train_teacher.py", line 320, in <module>
+    main()
+  File "train_teacher.py", line 117, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_teacher.py", line 211, in main_worker
+    train_acc, train_acc_top5, train_loss, precision, recall, macro_f1, micro_f1 = train(epoch, train_loader, model, criterion, optimizer, opt)

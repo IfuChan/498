@@ -1,0 +1,22 @@
+Use GPU: 0 for training
+==> loading teacher model
+==> done
+Test: [0/95]	GPU: 0	Time: 2.643	Loss 0.4174	Acc@1 89.062	Acc@5 100.000	Precision 0.882	Recall 0.750	
+teacher accuracy:  85.51108168167583
+==> training...
+Epoch: [1][0/378]	GPU 0	Time: 1.292	Loss 3.5616	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+Epoch: [1][200/378]	GPU 0	Time: 40.466	Loss 2.7283	Acc@1 68.641	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ * Epoch 1, GPU 0, Acc@1 68.339, Acc@5 100.000, precision 0.000, recall 0.000, Time 150.66
+GPU 0 validating
+Test: [0/95]	GPU: 0	Time: 0.961	Loss 0.8849	Acc@1 68.750	Acc@5 100.000	Precision 0.000	Recall 0.000	
+ ** Acc@1 68.508, Acc@5 100.000, precision 0.000, recall 0.000
+Traceback (most recent call last):
+  File "train_student.py", line 477, in <module>
+    main()
+  File "train_student.py", line 180, in main
+    main_worker(None if ngpus_per_node > 1 else opt.gpu_id, ngpus_per_node, opt)
+  File "train_student.py", line 459, in main_worker
+    save_dict_to_json(test_merics, os.path.join(opt.save_folder, "test_best_metrics.json"))
+  File "/content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/helper/util.py", line 82, in save_dict_to_json
+    with open(json_path, 'w') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './save/students/models/S:MobileNetV2_Imagenet_T:resnet32x4_rsna_pneumonia_simkd_r:1.0_a:1.0_b:0.0_0/test_best_metrics.json'

@@ -1,0 +1,163 @@
+2022-08-07 09:42:17,159 INFO    StreamThr :911 [internal.py:wandb_internal():93] W&B internal server running at pid: 911, started at: 2022-08-07 09:42:17.156115
+2022-08-07 09:42:17,162 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: status
+2022-08-07 09:42:17,168 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: status
+2022-08-07 09:42:17,181 DEBUG   SenderThread:911 [sender.py:send():302] send: header
+2022-08-07 09:42:17,182 INFO    WriterThread:911 [datastore.py:open_for_write():75] open: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/run-194ik0n6.wandb
+2022-08-07 09:42:17,237 DEBUG   SenderThread:911 [sender.py:send():302] send: run
+2022-08-07 09:42:17,443 INFO    SenderThread:911 [dir_watcher.py:__init__():216] watching files in: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files
+2022-08-07 09:42:17,444 INFO    SenderThread:911 [sender.py:_start_run_threads():916] run started: 194ik0n6 with start time 1659865337.170282
+2022-08-07 09:42:17,444 DEBUG   SenderThread:911 [sender.py:send():302] send: summary
+2022-08-07 09:42:17,447 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: check_version
+2022-08-07 09:42:17,449 INFO    SenderThread:911 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-07 09:42:17,450 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: check_version
+2022-08-07 09:42:17,556 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: run_start
+2022-08-07 09:42:17,560 DEBUG   HandlerThread:911 [meta.py:__init__():35] meta init
+2022-08-07 09:42:17,561 DEBUG   HandlerThread:911 [meta.py:__init__():50] meta init done
+2022-08-07 09:42:17,561 DEBUG   HandlerThread:911 [meta.py:probe():216] probe
+2022-08-07 09:42:17,573 DEBUG   HandlerThread:911 [meta.py:_setup_git():206] setup git
+2022-08-07 09:42:17,624 DEBUG   HandlerThread:911 [meta.py:_setup_git():213] setup git done
+2022-08-07 09:42:17,624 DEBUG   HandlerThread:911 [meta.py:_save_pip():54] save pip
+2022-08-07 09:42:17,629 DEBUG   HandlerThread:911 [meta.py:_save_pip():68] save pip done
+2022-08-07 09:42:17,630 DEBUG   HandlerThread:911 [meta.py:probe():254] probe done
+2022-08-07 09:42:17,677 DEBUG   SenderThread:911 [sender.py:send():302] send: files
+2022-08-07 09:42:17,678 INFO    SenderThread:911 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-08-07 09:42:17,695 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-07 09:42:17,695 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: stop_status
+2022-08-07 09:42:17,774 DEBUG   SenderThread:911 [sender.py:send():302] send: telemetry
+2022-08-07 09:42:18,019 INFO    Thread-16 :911 [upload_job.py:push():138] Uploaded file /tmp/tmplo6cbnf5wandb/1ppae987-wandb-metadata.json
+2022-08-07 09:42:18,451 INFO    Thread-12 :911 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/wandb-summary.json
+2022-08-07 09:42:18,452 INFO    Thread-12 :911 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/wandb-metadata.json
+2022-08-07 09:42:18,452 INFO    Thread-12 :911 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/requirements.txt
+2022-08-07 09:42:18,453 INFO    Thread-12 :911 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/output.log
+2022-08-07 09:42:22,467 INFO    Thread-12 :911 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/output.log
+2022-08-07 09:42:28,491 INFO    Thread-12 :911 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/output.log
+2022-08-07 09:42:30,502 INFO    Thread-12 :911 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/output.log
+2022-08-07 09:42:32,777 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-07 09:42:32,777 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: stop_status
+2022-08-07 09:42:45,726 DEBUG   SenderThread:911 [sender.py:send():302] send: stats
+2022-08-07 09:42:47,848 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-07 09:42:47,848 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: stop_status
+2022-08-07 09:42:48,569 INFO    Thread-12 :911 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/config.yaml
+2022-08-07 09:43:02,919 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-07 09:43:02,920 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: stop_status
+2022-08-07 09:43:15,884 DEBUG   SenderThread:911 [sender.py:send():302] send: stats
+2022-08-07 09:43:18,010 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-07 09:43:18,011 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: stop_status
+2022-08-07 09:43:33,085 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-07 09:43:33,086 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: stop_status
+2022-08-07 09:43:38,074 DEBUG   SenderThread:911 [sender.py:send():302] send: exit
+2022-08-07 09:43:38,074 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-07 09:43:38,074 INFO    SenderThread:911 [sender.py:send_exit():438] handling exit code: 1
+2022-08-07 09:43:38,075 INFO    SenderThread:911 [sender.py:send_exit():440] handling runtime: 80
+2022-08-07 09:43:38,080 INFO    SenderThread:911 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-07 09:43:38,082 INFO    SenderThread:911 [sender.py:send_exit():446] send defer
+2022-08-07 09:43:38,082 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: poll_exit
+2022-08-07 09:43:38,082 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: defer
+2022-08-07 09:43:38,083 INFO    HandlerThread:911 [handler.py:handle_request_defer():164] handle defer: 0
+2022-08-07 09:43:38,083 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: defer
+2022-08-07 09:43:38,084 INFO    SenderThread:911 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-08-07 09:43:38,084 INFO    SenderThread:911 [sender.py:transition_state():459] send defer: 1
+2022-08-07 09:43:38,084 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: defer
+2022-08-07 09:43:38,084 INFO    HandlerThread:911 [handler.py:handle_request_defer():164] handle defer: 1
+2022-08-07 09:43:38,099 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: defer
+2022-08-07 09:43:38,099 INFO    SenderThread:911 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-08-07 09:43:38,099 INFO    SenderThread:911 [sender.py:transition_state():459] send defer: 2
+2022-08-07 09:43:38,100 DEBUG   SenderThread:911 [sender.py:send():302] send: stats
+2022-08-07 09:43:38,100 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: defer
+2022-08-07 09:43:38,100 INFO    HandlerThread:911 [handler.py:handle_request_defer():164] handle defer: 2
+2022-08-07 09:43:38,101 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: defer
+2022-08-07 09:43:38,101 INFO    SenderThread:911 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-08-07 09:43:38,101 INFO    SenderThread:911 [sender.py:transition_state():459] send defer: 3
+2022-08-07 09:43:38,101 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: defer
+2022-08-07 09:43:38,102 INFO    HandlerThread:911 [handler.py:handle_request_defer():164] handle defer: 3
+2022-08-07 09:43:38,102 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: defer
+2022-08-07 09:43:38,102 INFO    SenderThread:911 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-08-07 09:43:38,102 INFO    SenderThread:911 [sender.py:transition_state():459] send defer: 4
+2022-08-07 09:43:38,103 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: defer
+2022-08-07 09:43:38,103 INFO    HandlerThread:911 [handler.py:handle_request_defer():164] handle defer: 4
+2022-08-07 09:43:38,103 DEBUG   SenderThread:911 [sender.py:send():302] send: summary
+2022-08-07 09:43:38,107 INFO    SenderThread:911 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-07 09:43:38,109 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: defer
+2022-08-07 09:43:38,109 INFO    SenderThread:911 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-08-07 09:43:38,109 INFO    SenderThread:911 [sender.py:transition_state():459] send defer: 5
+2022-08-07 09:43:38,109 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: defer
+2022-08-07 09:43:38,110 INFO    HandlerThread:911 [handler.py:handle_request_defer():164] handle defer: 5
+2022-08-07 09:43:38,110 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: defer
+2022-08-07 09:43:38,110 INFO    SenderThread:911 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-08-07 09:43:38,110 INFO    SenderThread:911 [sender.py:transition_state():459] send defer: 6
+2022-08-07 09:43:38,111 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: defer
+2022-08-07 09:43:38,111 INFO    HandlerThread:911 [handler.py:handle_request_defer():164] handle defer: 6
+2022-08-07 09:43:38,111 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: defer
+2022-08-07 09:43:38,111 INFO    SenderThread:911 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-08-07 09:43:38,184 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-07 09:43:38,768 INFO    Thread-12 :911 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/wandb-summary.json
+2022-08-07 09:43:40,078 INFO    SenderThread:911 [sender.py:transition_state():459] send defer: 7
+2022-08-07 09:43:40,079 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: poll_exit
+2022-08-07 09:43:40,079 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: defer
+2022-08-07 09:43:40,080 INFO    HandlerThread:911 [handler.py:handle_request_defer():164] handle defer: 7
+2022-08-07 09:43:40,081 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: defer
+2022-08-07 09:43:40,081 INFO    SenderThread:911 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-08-07 09:43:40,081 INFO    SenderThread:911 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-08-07 09:43:40,182 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-07 09:43:40,773 INFO    SenderThread:911 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/output.log
+2022-08-07 09:43:40,777 INFO    SenderThread:911 [dir_watcher.py:finish():392] scan: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files
+2022-08-07 09:43:40,778 INFO    SenderThread:911 [dir_watcher.py:finish():406] scan save: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/config.yaml config.yaml
+2022-08-07 09:43:40,779 INFO    SenderThread:911 [dir_watcher.py:finish():406] scan save: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/wandb-summary.json wandb-summary.json
+2022-08-07 09:43:40,785 INFO    SenderThread:911 [dir_watcher.py:finish():406] scan save: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/requirements.txt requirements.txt
+2022-08-07 09:43:40,790 INFO    SenderThread:911 [dir_watcher.py:finish():406] scan save: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/wandb-metadata.json wandb-metadata.json
+2022-08-07 09:43:40,791 INFO    SenderThread:911 [dir_watcher.py:finish():406] scan save: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/output.log output.log
+2022-08-07 09:43:40,796 INFO    SenderThread:911 [sender.py:transition_state():459] send defer: 8
+2022-08-07 09:43:40,797 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: poll_exit
+2022-08-07 09:43:40,798 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: defer
+2022-08-07 09:43:40,798 INFO    HandlerThread:911 [handler.py:handle_request_defer():164] handle defer: 8
+2022-08-07 09:43:40,799 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: defer
+2022-08-07 09:43:40,800 INFO    SenderThread:911 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-08-07 09:43:40,800 INFO    SenderThread:911 [file_pusher.py:finish():171] shutting down file pusher
+2022-08-07 09:43:40,900 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-07 09:43:40,902 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: poll_exit
+2022-08-07 09:43:41,004 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-07 09:43:41,004 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: poll_exit
+2022-08-07 09:43:41,106 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-07 09:43:41,107 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: poll_exit
+2022-08-07 09:43:41,125 INFO    Thread-19 :911 [upload_job.py:push():138] Uploaded file /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/requirements.txt
+2022-08-07 09:43:41,138 INFO    Thread-17 :911 [upload_job.py:push():138] Uploaded file /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/config.yaml
+2022-08-07 09:43:41,146 INFO    Thread-18 :911 [upload_job.py:push():138] Uploaded file /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/wandb-summary.json
+2022-08-07 09:43:41,148 INFO    Thread-20 :911 [upload_job.py:push():138] Uploaded file /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/files/output.log
+2022-08-07 09:43:41,208 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-07 09:43:41,209 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: poll_exit
+2022-08-07 09:43:41,310 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-07 09:43:41,311 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: poll_exit
+2022-08-07 09:43:41,349 INFO    Thread-11 :911 [sender.py:transition_state():459] send defer: 9
+2022-08-07 09:43:41,350 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: defer
+2022-08-07 09:43:41,350 INFO    HandlerThread:911 [handler.py:handle_request_defer():164] handle defer: 9
+2022-08-07 09:43:41,350 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: defer
+2022-08-07 09:43:41,350 INFO    SenderThread:911 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-08-07 09:43:41,412 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-07 09:43:41,576 INFO    SenderThread:911 [sender.py:transition_state():459] send defer: 10
+2022-08-07 09:43:41,576 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: poll_exit
+2022-08-07 09:43:41,577 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: defer
+2022-08-07 09:43:41,577 INFO    HandlerThread:911 [handler.py:handle_request_defer():164] handle defer: 10
+2022-08-07 09:43:41,578 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: defer
+2022-08-07 09:43:41,578 INFO    SenderThread:911 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-08-07 09:43:41,578 INFO    SenderThread:911 [sender.py:transition_state():459] send defer: 11
+2022-08-07 09:43:41,579 DEBUG   SenderThread:911 [sender.py:send():302] send: final
+2022-08-07 09:43:41,579 DEBUG   SenderThread:911 [sender.py:send():302] send: footer
+2022-08-07 09:43:41,580 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: defer
+2022-08-07 09:43:41,580 INFO    HandlerThread:911 [handler.py:handle_request_defer():164] handle defer: 11
+2022-08-07 09:43:41,580 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: defer
+2022-08-07 09:43:41,580 INFO    SenderThread:911 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-08-07 09:43:41,679 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-07 09:43:41,679 DEBUG   SenderThread:911 [sender.py:send_request():316] send_request: poll_exit
+2022-08-07 09:43:41,680 INFO    SenderThread:911 [file_pusher.py:join():176] waiting for file pusher
+2022-08-07 09:43:41,915 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: sampled_history
+2022-08-07 09:43:41,916 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: get_summary
+2022-08-07 09:43:41,916 INFO    MainThread:911 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2022-08-07 09:43:41,917 INFO    MainThread:911 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2022-08-07 09:43:41,917 INFO    MainThread:911 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2022-08-07 09:43:41,918 DEBUG   HandlerThread:911 [handler.py:handle_request():141] handle_request: shutdown
+2022-08-07 09:43:41,918 INFO    HandlerThread:911 [handler.py:finish():810] shutting down handler
+2022-08-07 09:43:42,580 INFO    WriterThread:911 [datastore.py:close():279] close: /content/drive/.shortcut-targets-by-id/1aAWk40Gy3z7CoH8LjUDuJOtYT0RfUzYr/CSE499/SimKD/wandb/run-20220807_094217-194ik0n6/run-194ik0n6.wandb
+2022-08-07 09:43:42,814 INFO    SenderThread:911 [sender.py:finish():1312] shutting down sender
+2022-08-07 09:43:42,814 INFO    SenderThread:911 [file_pusher.py:finish():171] shutting down file pusher
+2022-08-07 09:43:42,814 INFO    SenderThread:911 [file_pusher.py:join():176] waiting for file pusher
+2022-08-07 09:43:42,921 INFO    MainThread:911 [internal.py:handle_exit():80] Internal process exited
